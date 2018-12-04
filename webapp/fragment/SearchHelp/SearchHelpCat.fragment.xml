@@ -1,0 +1,16 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core">
+	<SelectDialog
+		title="Search"
+		class="sapUiPopupWithPadding"
+		items="{ path: 'prodH>/PROD_HIERARCHYSet', filters : [ { path : 'Stufe', operator : 'EQ', value1 : '1'}, { path : 'Spras', operator : 'EQ', value1 : 'EN'} ] }"
+		search="_handleValueHelpSearchCat"
+		confirm="_handleValueHelpClose"
+		cancel="_handleValueHelpClose">
+		<StandardListItem
+			title="{prodH>Prodh1}"
+			description="{prodH>Vtext1}"
+			 />
+	</SelectDialog>
+</core:FragmentDefinition>

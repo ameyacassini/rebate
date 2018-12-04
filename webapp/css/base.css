@@ -1,0 +1,99 @@
+.customUiBody .sapMShellGlobalOuterBackground {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#45484d+0,000000+100;Black+3D+%231 */
+background: rgb(69,72,77); /* Old browsers */
+background: -moz-linear-gradient(-45deg, rgba(69,72,77,1) 0%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.customUiBody .sapMShellBrandingBar {
+    height: 16px;
+    background-color: #815d1f;
+    filter: progid:DXImageTransform.Microsoft.gradient(gradientType=1, startColorstr='#FF815D1F', endColorstr='#FF815D1F');
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiP…dpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==);
+    background-size: 100%;
+    background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #815d1f),color-stop(27%, #c4995c),color-stop(42%, #dcc39e),color-stop(68%, #c4995c),color-stop(100%, #815d1f));
+    background-image: -moz-linear-gradient(left, #815d1f 0%,#c4995c 27%,#dcc39e 42%,#c4995c 68%,#815d1f 100%);
+    background-image: -webkit-linear-gradient(left, #815d1f 0%,#c4995c 27%,#dcc39e 42%,#c4995c 68%,#815d1f 100%);
+    background-image: linear-gradient(to right, #815d1f 0%,#c4995c 27%,#dcc39e 42%,#c4995c 68%,#815d1f 100%);
+}
+
+.customUiBody .sapMPageHeader::before {
+    border-top: 0;
+}
+
+.customUiBody .sapMPageHeader {
+	margin-top: 16px;
+}
+
+html.sap-desktop .customUiBody .sapMGT:hover, html.sap-phone .customUiBody .sapMGT:active, html.sap-tablet .customUiBody .sapMGT:active {
+    box-shadow: 0 0 0 0.125rem #e0bc94;
+    border-color: transparent;
+    background: #e0bc94;
+}
+
+.customUiBody .sapMGT {
+    background: #44413d;
+    color: #FFFFFF;
+}
+
+.customUiBody .sapMGTHdrTxt>.sapMText {
+    color: #FFFFFF;
+    font-weight: normal;
+    font-family: 'Saira', sans-serif;
+    font-size: 1rem;
+}
+
+.customUiBody .sapUiGlobalBackgroundColor, .customUiBody .sapMGlobalBackgroundColor {
+    background: transparent;
+}
+
+html.sap-desktop .customUiBody .sapMShellAppWidthLimited .sapMShellCentralBox {
+    width: 100%;
+    margin-left: 0;
+    left: 0;
+}
+
+.customUiBody .sapMShellGlobalInnerBackground {
+    background: transparent;
+}
+
+.customUiBody .sapMIBar.sapMHeader-CTX {
+    background-color: transparent;
+}
+
+.customUiBody .sapMBar {
+    box-shadow: none;
+}
+
+.customUiBody .sapUiGlobalBackgroundColor, .customUiBody .sapMGlobalBackgroundColor {
+	background: #F0F0F0;
+}
+
+.customUiBody .sapMIBar-CTX .sapMTitle {
+    color: #FFFFFF;
+}
+
+.customUiBody .sapTntToolHeader.sapMTB {
+	margin-top: 16px;
+	background-color: transparent;
+	border-bottom: 0;
+}
+
+.customUiBody .sapTntToolHeader.sapMTB .sapMBtnContent,
+.customUiBody .sapTntToolHeader.sapMTB .sapMText,
+.customUiBody .sapTntToolHeaderPopover.sapMOTAPopover.sapMPopover .sapMBtnContent {
+	margin-left: 2.5rem;
+    color: #FFF;
+    font-size: 1.5rem;
+    font-family: 'Saira', sans-serif;
+}
+
+.customUiBody .sapTntToolHeader.sapMTB .sapMBtnIcon {
+	color: #FFF;
+}
+
+.customUiBody .sapUiFixFlex {
+	padding-bottom: 3rem;
+}

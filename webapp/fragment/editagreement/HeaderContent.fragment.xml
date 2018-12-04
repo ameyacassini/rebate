@@ -1,0 +1,89 @@
+<core:FragmentDefinition
+    xmlns:mvc="sap.ui.core.mvc" 
+    xmlns:u="sap.ui.unified" 
+    xmlns:f="sap.ui.layout.form" 
+    xmlns="sap.m" 
+    xmlns:core="sap.ui.core">
+	
+	<f:Form id="FormHeaderContent"
+			editable="false">
+			<f:layout>
+				<f:ResponsiveGridLayout
+					labelSpanXL="12"
+					labelSpanL="12"
+					labelSpanM="12"
+					labelSpanS="12"
+					adjustLabelSpan="false"
+					emptySpanXL="0"
+					emptySpanL="0"
+					emptySpanM="0"
+					emptySpanS="0"
+					columnsXL="3"
+					columnsL="3"
+					columnsM="3"
+					singleContainerFullSize="false" />
+			</f:layout>
+			<f:formContainers>
+				<f:FormContainer title="Header Data">
+					<f:formElements>
+						<f:FormElement label="Customer">
+							<f:fields>
+								<Input id="customerInput" type="Text" placeholder="Enter Customer ..." value="{Agreement>/CustomerName}"
+									showSuggestion="true" showValueHelp="true" valueHelpRequest="handleValueHelpCust" 
+									submit="onNavigate" suggestionItems="{CustomerModel>/CustomerCollection}" width="auto">
+									<suggestionItems>
+										<core:Item text="{CustomerModel>CustomerID}"/>
+									</suggestionItems>
+								</Input>
+							</f:fields>
+						</f:FormElement>
+						<f:FormElement label="Valid From">
+							<f:fields>
+								<DatePicker id="DP2" value="{Agreement>/LineItems/ValidFrom}" valueFormat="yyyy-MM-dd" 
+									displayFormat="long" change="onPSFG13" class="sapUiSmallMarginBottom"/>
+							</f:fields>
+						</f:FormElement>
+						<f:FormElement label="Valid Till">
+							<f:fields>
+								<DatePicker id="DP3" value="{Agreement>/LineItems/ValidTo}" valueFormat="yyyy-MM-dd" 
+									displayFormat="long" change="onPSFG14" class="sapUiSmallMarginBottom"/>
+							</f:fields>
+						</f:FormElement>
+					</f:formElements>
+				</f:FormContainer>
+				<f:FormContainer title="Cusomer Region">
+					<f:formElements>
+						<f:FormElement label="Sales Organization">
+							<f:fields>
+								<Input id="hdSalesOrg" value="{Agreement>/LineItems/SalesOrg}" editable="false"/>
+							</f:fields>
+						</f:FormElement>
+						<f:FormElement label="Country">
+							<f:fields>
+								<Input id="hdCountry" value="{Agreement>/LineItems/Country}" editable="false"/>
+							</f:fields>
+						</f:FormElement>
+						<f:FormElement label="Currency">
+							<f:fields>
+								<Input id="hdCurrency" value="{Agreement>/LineItems/Currency}" editable="false"/>
+							</f:fields>
+						</f:FormElement>
+					</f:formElements>
+				</f:FormContainer>
+				<f:FormContainer title="Upload Contract">
+					<f:formElements>
+						<f:FormElement label="Select File">
+							<f:fields>
+								<u:FileUploader id="fileUploader" width="100%" name="myFileUpload" uploadComplete="onInnerDummy"/>
+							</f:fields>
+						</f:FormElement>
+						<f:FormElement>
+							<f:fields>
+								<Button text="Upload" press="handleUploadPress" width="100px"/>
+							</f:fields>
+						</f:FormElement>
+					</f:formElements>
+				</f:FormContainer>
+			</f:formContainers>
+		</f:Form>
+</core:FragmentDefinition>

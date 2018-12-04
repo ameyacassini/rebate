@@ -1,0 +1,15 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core">
+	<SelectDialog
+		title="Nature"
+		class="sapUiPopupWithPadding"
+		items="{path: 'contS>/GetCharAccSet', filters : [ { path : 'Bname', operator : 'EQ', value1 : 'MOB17'} ]}"
+		search="_handleValueHelpSearchTop"
+		confirm="_handleValueHelpCloseTop"
+		cancel="_handleValueHelpCloseTop">
+		<StandardListItem
+			title="{contS>Chardid}"
+			description="{contS>Chardesc}" />
+	</SelectDialog>
+</core:FragmentDefinition>

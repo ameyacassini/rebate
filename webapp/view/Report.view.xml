@@ -1,0 +1,49 @@
+<mvc:View controllerName="demonewcassini.controller.Report" xmlns="sap.m" xmlns:viz="sap.viz.ui5.controls" xmlns:layout="sap.ui.layout"
+	xmlns:mvc="sap.ui.core.mvc" xmlns:core="sap.ui.core" xmlns:viz.feeds="sap.viz.ui5.controls.common.feeds" xmlns:viz.data="sap.viz.ui5.data"
+	height="100%">
+	<layout:FixFlex id='chartFixFlex' minFlexSize="250">
+		<!--Below is the setting panel -->
+		<!--<layout:fixContent>
+			<Panel id='settingsPanel' class="panelStyle" expandable="true" expanded="true" headerText="Settings" width="auto">
+				<content>
+					<HBox class='settingsHBox'>
+						<VBox width="200px">
+							<Label text='{/chartType/name}' design="Bold" class='settingsLabel'></Label>
+							<Select id='chartTypeSelect' class='settingsSelect' selectedKey='{/chartType/defaultSelected}' maxWidth="150px" change='onChartTypeChanged'
+								items="{path: '/chartType/values'}">
+								<items>
+									<core:Item text="{name}" key="{key}"/>
+								</items>
+							</Select>
+						</VBox>
+					</HBox>
+				</content>
+			</Panel>
+		</layout:fixContent>-->
+		<layout:flexContent>
+		 <!--<viz:Popover id="idPopOver"></viz:Popover>
+            <viz:VizFrame id="idVizFrame" uiConfig="{applicationSet:'fiori'}"
+                height='100%' width="100%" vizType='timeseries_line'>
+                <viz:dataset>
+                    <viz.data:FlattenedDataset data="{reportData>/milk}">
+                        <viz.data:dimensions>
+                            <viz.data:DimensionDefinition name="Date"
+                                value="{reportData>Date}" dataType="date"/>
+                        </viz.data:dimensions>
+                        <viz.data:measures>
+                            <viz.data:MeasureDefinition name="Accrued"
+                                value="{reportData>Accrued}" />
+                        </viz.data:measures>
+                    </viz.data:FlattenedDataset>
+                </viz:dataset>
+
+                <viz:feeds>
+                    <viz.feeds:FeedItem uid="valueAxis" type="Measure"
+                        values="Accrued" />
+                    <viz.feeds:FeedItem uid="timeAxis" type="Dimension"
+                        values="Date" />
+                </viz:feeds>
+            </viz:VizFrame>-->
+		</layout:flexContent>
+	</layout:FixFlex>
+</mvc:View>

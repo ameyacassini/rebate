@@ -1,0 +1,39 @@
+{
+	"CollectionGroupInformation": [{
+		"groupId": 22000000,
+		"documentDate": "2018-4-8",
+		"CreatedBy": "Victorien BOUILLARD",
+		"NoOfItems": 1,
+		"description": "FTT Liquers",
+		"Items": [{
+
+			"namingDescription": "LIQUEURS + AMER",
+			"namingkey": "LI"
+
+		}]
+	}, {
+		"groupId": 22000001,
+		"documentDate": "2018-4-8",
+		"CreatedBy": "Victorien BOUILLARD",
+		"NoOfItems": 1,
+		"description": "FTT Alcools Blancs",
+		"Items": [{
+
+			"namingDescription": "ALCOOLS BLANCS",
+			"namingkey": "AB"
+		}]
+	}, {
+		"groupId": 22000002,
+		"documentDate": "2018-4-8",
+		"CreatedBy": "Victorien BOUILLARD",
+		"NoOfItems": 2,
+		"description": "FTT Whiskeys",
+		"Items": [{
+
+
+			"namingDescription": "WHISKIES",
+			"namingkey": "WH"
+		}]
+	}]
+
+}

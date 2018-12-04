@@ -1,0 +1,15 @@
+{	"groupType":[
+		{
+			"ddkey":"group1",
+			"ddtext":"group1"
+		},
+				{
+			"ddkey":"group2",
+			"ddtext":"group2"
+		},
+				{
+			"ddkey":"group3",
+			"ddtext":"group3"
+		}
+		]
+}

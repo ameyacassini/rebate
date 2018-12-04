@@ -1,0 +1,130 @@
+<mvc:View controllerName="demonewcassini.controller.SDSettlement" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:core="sap.ui.core"
+	xmlns:l="sap.ui.layout" xmlns:f="sap.ui.layout.form">
+	<l:VerticalLayout>
+		<f:Form>
+			<f:layout>
+				<f:ResponsiveGridLayout
+					labelSpanXL="4"
+					labelSpanL="4"
+					labelSpanM="4"
+					labelSpanS="12"
+					adjustLabelSpan="false"
+					emptySpanXL="0"
+					emptySpanL="0"
+					emptySpanM="0"
+					emptySpanS="0"
+					columnsXL="3"
+					columnsL="2"
+					columnsM="2"
+					singleContainerFullSize="false" />
+			</f:layout>
+			<f:formContainers>
+				<f:FormContainer>
+					<f:formElements>
+						<f:FormElement label="Posting Period">
+							<f:fields>
+								<Input type="Text" id="postingPerd" placeholder="Enter Posting Period ..." showSuggestion="true"
+									suggestionItemSelected="suggestionItemSelected" suggestionItems="{AccModel>/AccrualCollection}">
+									<suggestionItems>
+										<core:Item text="{AccModel>PostPeriod}"/>
+									</suggestionItems>
+								</Input>
+							</f:fields>
+						</f:FormElement>
+						<f:FormElement label="{i18n>settlementDate}">
+							<f:fields>
+								<Input id="invoiceDt" value="" class="ocrTextBox">
+									<customData>
+										<core:CustomData key="elementid" value="invoiceDt" writeToDom="true"/>
+									</customData>
+								</Input>
+							</f:fields>
+						</f:FormElement>
+						<f:FormElement label="{i18n>refrenceNumber}">
+							<f:fields>
+								<Input id="refNumber" value="" class="ocrTextBox">
+									<customData>
+										<core:CustomData key="elementid" value="refNumber" writeToDom="true"/>
+									</customData>
+								</Input>
+							</f:fields>
+						</f:FormElement>
+						<!--		<f:FormElement label="{i18n>taxCode}">
+													<f:fields>
+														<Input id="taxCode" value="WF" class="ocrTextBox" width="50px">
+															<customData>
+																<core:CustomData key="elementid" value="taxCode" writeToDom="true" />
+															</customData>
+														</Input>
+													</f:fields>
+												</f:FormElement>-->
+					</f:formElements>
+				</f:FormContainer>
+				<f:FormContainer>
+					<f:formElements>
+						<f:FormElement label="{i18n>customer}">
+							<f:fields>
+								<Input id="customer" value="0003130341" class="ocrTextBox">
+									<customData>
+										<core:CustomData key="elementid" value="customer" writeToDom="true"/>
+									</customData>
+								</Input>
+							</f:fields>
+						</f:FormElement>
+						<f:FormElement label="{i18n>text}">
+							<f:fields>
+								<Input id="text" value="" class="ocrTextBox">
+									<customData>
+										<core:CustomData key="elementid" value="text" writeToDom="true"/>
+									</customData>
+								</Input>
+							</f:fields>
+						</f:FormElement>
+						<!--			<f:FormElement label="{i18n>taxAmount}">
+													<f:fields>
+														<Input id="taxAmount" value="1735.45" class="ocrTextBox">
+															<customData>
+																<core:CustomData key="elementid" value="taxAmount" writeToDom="true" />
+															</customData>
+														</Input>
+													</f:fields>
+												</f:FormElement>-->
+					</f:formElements>
+				</f:FormContainer>
+			</f:formContainers>
+		</f:Form>
+		<Table id="editTable" items="{ path:'SettlementTabModel>/' }" updateFinished="onUpdateFinished" class="SapTable SapTableEdit">
+			<headerToolbar>
+				<Toolbar>
+					<Title text="Settlement" level="H2"/>
+					<ToolbarSpacer></ToolbarSpacer>
+					<Button text="Post Settlements" press="onPostSettlement" type="Accept"/>
+				</Toolbar>
+			</headerToolbar>
+			<columns>
+				<Column ><Text text="{i18n>collectionGroup}"/></Column>
+				<!--<Column ><Text text="{i18n>collectionGroupdesc}"/></Column>-->
+				<Column><Text text="{i18n>fTtNature}"/></Column>
+				<Column><Text text="{i18n>accruedAmount}"/></Column>
+				<Column><Text text="{i18n>customerExpectedValue}"/></Column>
+			</columns>
+			<items>
+				<ColumnListItem>
+					<cells>
+						<Text id="idPHS" class="" text="{SettlementTabModel>Prodno}"/>
+					</cells>
+					<!--<cells><Text  id="idInpLength" class="" text="{CompSettleLineModel>PHD}"/>
+										</cells>-->
+					<cells>
+						<Text id="idInpValue" class="writableVal" text="{SettlementTabModel>Natureid}"/></cells>
+					<cells>
+						<Text id="InpValue" class="writableVal" text="{SettlementTabModel>Accamount}"/>
+					</cells>
+					<cells>
+						<Input editable="true" id="Inpcust" class="writableVal" value="" submit="onEnterCustVal"/>
+					</cells>
+				</ColumnListItem>
+			</items>
+		</Table>
+	</l:VerticalLayout>
+</mvc:View>

@@ -1,0 +1,16 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core">
+	<SelectDialog
+		title="Search"
+		class="sapUiPopupWithPadding"
+		items="{hierarchy4>/results}"
+		search="_handleValueHelpSearchModel"
+		confirm="_handleValueHelpClose"
+		cancel="_handleValueHelpClose">
+		<StandardListItem
+		    title="{hierarchy4>Prodh4}"
+			description="{hierarchy4>Vtext4}"
+			 />
+	</SelectDialog>
+</core:FragmentDefinition>

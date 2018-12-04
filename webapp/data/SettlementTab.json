@@ -1,0 +1,23 @@
+{
+	"Settlement": [
+		{
+		"PHS": "22000000",
+		"PHD":"FTT Liquers",
+		"AccAmt": "868.52",
+		"FTTNat":"E"
+		},
+		{
+		"PHS": "22000001",
+		"PHD":"FTT Alcools Blancs",
+		"AccAmt": "1140.00",
+		"FTTNat":"E"
+		},
+		{
+		"PHS": "22000002",
+		"PHD":"FTT Whiskeys",
+		"AccAmt": "6669.00",
+		"FTTNat":"E"
+		}
+	]
+
+}

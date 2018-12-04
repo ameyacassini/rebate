@@ -1,0 +1,96 @@
+<mvc:View controllerName="demonewcassini.controller.CollectionGroupList" xmlns:html="http://www.w3.org/1999/xhtml" class="scrollable"
+	xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:l="sap.ui.layout">
+	<!--<Page id="CollectionGroupInformation" title="{i18n>title}" >
+		<content>-->
+<!--	<Toolbar>
+		<SearchField liveChange="filterGlobally" width="100%"/> 
+	</Toolbar>-->
+	<Toolbar>
+		<Button id="btn_back" icon="sap-icon://nav-back" type="Emphasized" press="onNavBack"/>
+		<ToolbarSpacer/>
+		<Label text="{i18n>advancedSearch}" design="Bold"/>
+		<ToolbarSpacer/>
+		<Button id="btn_showFilter" icon="{filterModel>/icon}" type="Emphasized" press="showAdvanceSearch"/>
+	</Toolbar>
+	<l:VerticalLayout class="sapUiTinyMargin" id="advancedFilter" visible="{filterModel>/advanceFilterVisible}">
+		<l:content>
+			<Label text="{i18n>categoryList}" design="Bold"/>
+			<Input value="{filterModel>/catDescription}" id="inp_cat" showSuggestion="true" showValueHelp="true" valueHelpRequest="handleValueHelpCat"
+				suggestionItems="{ path: 'prodH>/PROD_HIERARCHYSet', filters : [ { path : 'Stufe', operator : 'EQ', value1 : '1'}, { path : 'Spras', operator : 'EQ', value1 : 'EN'} ] }">
+				<suggestionItems>
+					<core:Item text="{prodH>Vtext1}"/>
+				</suggestionItems>
+			</Input>
+			<Label text="{i18n>typeList}" design="Bold"/>
+			<Input value="{filterModel>/typeDescription}" id="inp_type" showSuggestion="true" showValueHelp="true"
+				valueHelpRequest="handleValueHelpType"
+				suggestionItems="{ path: 'prodH>/PROD_HIERARCHYSet', filters : [ { path : 'Stufe', operator : 'EQ', value1 : '2'}, { path : 'Spras', operator : 'EQ', value1 : 'EN'} ] }">
+				<suggestionItems>
+					<core:Item text="{prodH>Vtext2}"/>
+				</suggestionItems>
+			</Input>
+			<Label text="{i18n>brandList}" design="Bold"/>
+			<Input value="{filterModel>/brandGroupDescription}" id="inp_brand" showSuggestion="true" showValueHelp="true"
+				valueHelpRequest="handleValueHelpBrand"
+				suggestionItems="{ path: 'prodH>/PROD_HIERARCHYSet', filters : [ { path : 'Stufe', operator : 'EQ', value1 : '3'}, { path : 'Spras', operator : 'EQ', value1 : 'EN'} ] }">
+				<suggestionItems>
+					<core:Item text="{prodH>Vtext3}"/>
+				</suggestionItems>
+			</Input>
+			<Label text="{i18n>modelList}" design="Bold"/>
+			<Input value="{filterModel>/modelDescription}" id="inp_model" showSuggestion="true" showValueHelp="true"
+				valueHelpRequest="handleValueHelpModel"
+				suggestionItems="{ path: 'prodH>/PROD_HIERARCHYSet', filters : [ { path : 'Stufe', operator : 'EQ', value1 : '4'}, { path : 'Spras', operator : 'EQ', value1 : 'EN'} ] }">
+				<suggestionItems>
+					<core:Item text="{prodH>Vtext4}"/>
+				</suggestionItems>
+			</Input>
+			<Button text="{i18n>applyFilter}" type="Emphasized" press="onNavigateToFilteredList" icon="sap-icon://open-command-field"
+				class="sapUiTinyMarginBegin"/>
+			<Button text="Clear Selection" type="Emphasized" press="onClearFilteredList" icon="sap-icon://open-command-field" class="sapUiTinyMarginBegin"/>
+		</l:content>
+	</l:VerticalLayout>
+	<List id="collectionGroupList"
+		items="{ path: 'prodH>/PROD_HEADERSet', filters : [ { path : 'Bname', operator : 'EQ', value1 : 'MOB17'} ], parameters: { 'expand' : 'PROD_HEADERTOPROD_HIERARCHY' } }"
+		mode="SingleSelectMaster" itemPress="onSelectionChange">
+		<headerToolbar>
+					<OverflowToolbar>
+						<SearchField
+							id="searchField"
+							showRefreshButton="true"
+							tooltip="{i18n>masterSearchTooltip}"
+							search="filterGlobally"
+							width="auto">
+							<layoutData>
+								<OverflowToolbarLayoutData
+									minWidth="150px"
+									maxWidth="240px"
+									shrinkable="true"/>
+							</layoutData>
+						</SearchField>
+						<!--<ToolbarSpacer/>
+						<Button
+							id="sortButton"
+							press="onOpenViewSettings"
+							icon="sap-icon://sort"
+							type="Transparent"/>
+						<Button
+							id="filterButton"
+							press="onOpenViewSettings"
+							icon="sap-icon://filter"
+							type="Transparent"/>
+						<Button
+							id="groupButton"
+							press="onOpenViewSettings"
+							icon="sap-icon://group-2"
+							type="Transparent"/>-->
+					</OverflowToolbar>
+				</headerToolbar>
+		<items>
+			<ObjectListItem type="Navigation" press="onSelectionChange" title="{prodH>Prodno}"
+				intro="{prodH>Description}"/>
+		</items>
+	</List>
+	<!--</content>
+	</Page>-->
+</mvc:View>

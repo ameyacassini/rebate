@@ -1,0 +1,82 @@
+<mvc:View controllerName="demonewcassini.controller.AgreementDetails" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc" xmlns:l="sap.ui.layout" xmlns:fixedamount="demonewcassini.block.fixedamount"
+	xmlns:lumpsum="demonewcassini.block.lumpsum" xmlns:core="sap.ui.core" xmlns:persales="demonewcassini.block.persales" xmlns:uxap="sap.uxap">
+	<uxap:ObjectPageLayout id="ObjectPageLayout" enableLazyLoading="true">
+		<uxap:headerTitle>
+			<uxap:ObjectPageHeader objectTitle=" {i18n>agreementNumber} {AgreementN>/ContractNo}"  objectImageShape="Circle"
+				showPlaceholder="true">
+				<uxap:actions>
+					<uxap:ObjectPageHeaderActionButton  type="Emphasized" text="Edit" id="idEdit" visible="true" press="onEditPress" hideText="false"/>
+					<uxap:ObjectPageHeaderActionButton type="Emphasized" id="idSave" text="{i18n>save}" press="onSavePress" hideText="false" hideIcon="true"
+						visible="false"/>
+					<uxap:ObjectPageHeaderActionButton type="Emphasized" text="{i18n>ipDocument}" press="onIPPress" hideText="false" hideIcon="true"/>
+					<uxap:ObjectPageHeaderActionButton type="Emphasized" text="{i18n>accurals}" hideText="false" press="onAccrualsPress"/>
+					<uxap:ObjectPageHeaderActionButton type="Emphasized" text="{i18n>settlement}" press="onSettlePress" hideText="false" hideIcon="true"/>
+					<!--<uxap:ObjectPageHeaderActionButton type="Emphasized" text="{i18n>copy}" hideText="false" hideIcon="true"/>-->
+				</uxap:actions>
+			</uxap:ObjectPageHeader>
+		</uxap:headerTitle>
+		<uxap:headerContent>
+			<l:VerticalLayout>
+				<ObjectStatus title="{i18n>customerID}" text="{AgreementN>/CustomerID}"/>
+				<ObjectStatus title="{i18n>customerName}" text="{AgreementN>/CustomerName}"/>
+				<ObjectStatus title="{i18n>country}" text="{AgreementN>/Country}"/>
+				
+			</l:VerticalLayout>
+			<l:VerticalLayout>
+				<Label text="{i18n>validFrom} {AgreementN>/ValidFrom}"/>
+				<Label text="{i18n>validTo} {AgreementN>/ValidTo}"/>
+				<Label text="{i18n>status} {AgreementN>/Status}"/>
+			</l:VerticalLayout>
+			<l:VerticalLayout>
+				<core:Icon
+					src="sap-icon://request"
+					class="documentIcon" press="onPressImage">
+				</core:Icon>
+				<!--<Image src="{Agreement>/LineItems/image}" height="70px" press="onPressImage"/>-->
+			</l:VerticalLayout>
+		</uxap:headerContent>
+		<uxap:sections>
+			<uxap:ObjectPageSection title="{i18n>overview}" visible="true">
+				<uxap:subSections>
+					<uxap:ObjectPageSubSection title="{i18n>overview}" mode="Expanded">
+						<uxap:blocks>
+							<!--<persales:PercentSale id="salesExp"/>-->
+							<core:Fragment fragmentName="demonewcassini.fragment.editagreement.Overview" type="XML"/>
+						</uxap:blocks>
+					</uxap:ObjectPageSubSection>
+				</uxap:subSections>
+			</uxap:ObjectPageSection>
+			<uxap:ObjectPageSection title="{i18n>headersales}" visible="true">
+				<uxap:subSections>
+					<uxap:ObjectPageSubSection title="{i18n>headersales}" mode="Expanded">
+						<uxap:blocks>
+							<!--<persales:PercentSale id="salesExp"/>-->
+							<core:Fragment fragmentName="demonewcassini.fragment.editagreement.PerSale" type="XML"/>
+						</uxap:blocks>
+					</uxap:ObjectPageSubSection>
+				</uxap:subSections>
+			</uxap:ObjectPageSection>
+			<uxap:ObjectPageSection title="{i18n>headerFixedAmount}">
+				<uxap:subSections>
+					<uxap:ObjectPageSubSection title="{i18n>headerFixedAmount}" mode="Expanded">
+						<uxap:blocks>
+							<!--<fixedamount:Fixedamount id="fixedamount" columnLayout="4"/>-->
+							<core:Fragment fragmentName="demonewcassini.fragment.editagreement.FixedAmount" type="XML"/>
+						</uxap:blocks>
+					</uxap:ObjectPageSubSection>
+				</uxap:subSections>
+			</uxap:ObjectPageSection>
+			<uxap:ObjectPageSection title="{i18n>headerLumpsum}">
+				<uxap:subSections>
+					<uxap:ObjectPageSubSection title="{i18n>headerLumpsum}" mode="Expanded">
+						<uxap:blocks>
+							<!--<lumpsum:Lumpsum id="lumpsum" columnLayout="4"/>-->
+							<core:Fragment fragmentName="demonewcassini.fragment.editagreement.LumpSum" type="XML"/>
+						</uxap:blocks>
+					</uxap:ObjectPageSubSection>
+				</uxap:subSections>
+			</uxap:ObjectPageSection>
+		</uxap:sections>
+	</uxap:ObjectPageLayout>
+</mvc:View>

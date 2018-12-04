@@ -1,0 +1,67 @@
+{
+	"ListItems": [{
+			"ddkey": "AA",
+			"ddtext": "B.A.A"
+		},{
+		"ddkey": "AB",
+		"ddtext": "ALCOOLS BLANCS"
+	},{
+	"ddkey": "AC",
+	"ddtext": "ARTICLES COMPOSES"
+},{
+"ddkey": "AV",
+"ddtext": "A.B.V"
+},{
+"ddkey": "BY",
+"ddtext": "BRANDY"
+},{
+"ddkey": "CA",
+"ddtext": "CALVADOS"
+},{
+"ddkey": "CC",
+"ddtext": "COTEAUX CHAMPENOIS"
+},{
+"ddkey": "CG",
+"ddtext": "COGNAC BOUTEILLES"
+},{
+"ddkey": "CH",
+"ddtext": "CHAMPAGNE"
+},{
+"ddkey": "DM",
+"ddtext": "DRY MATERIAL"
+},{
+"ddkey": "ES",
+"ddtext": "Essai Bouteilles"
+},{
+"ddkey": "LI",
+"ddtext": "LIQUEURS + AMER"
+},{
+"ddkey": "MC",
+"ddtext": "MARC"
+},{
+"ddkey": "MO",
+"ddtext": "MOUSSEUX"
+},{
+"ddkey": "PO",
+"ddtext": "PORTO"
+},{
+"ddkey": "PU",
+"ddtext": "ARTICLES PUB"
+},{
+"ddkey": "PX",
+"ddtext": "PREMIX"
+},{
+"ddkey": "RA",
+"ddtext": "RATAFIA"
+},{
+"ddkey": "SV",
+"ddtext": "Services"
+},{
+"ddkey": "VA",
+"ddtext": "VINS"
+},{
+"ddkey": "WH",
+"ddtext": "WHISKIES"
+}
+]
+}

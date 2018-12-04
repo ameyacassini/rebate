@@ -1,0 +1,24 @@
+<mvc:View controllerName="demonewcassini.controller.LandingPage" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc" xmlns:l="sap.ui.layout" xmlns:uxap="sap.uxap" xmlns:core="sap.ui.core">
+	<VBox class="sapUiForceWidthAuto sapUiSmallMargin sapUiMediumMarginBeginEnd sapUiLargeMarginTopBottom landingPageBox">
+		<l:VerticalLayout class="landingPageContainer">
+			<Input visible="{= ${GlobalKeys>/page} === 'appHome' }" id="productInput" width="100%" type="Text" class="searchBox"
+				placeholder="{i18n>placeholder}" showSuggestion="true" showValueHelp="true" valueHelpRequest="handleValueHelp"
+				suggestionItemSelected="suggestionItemSelected"
+				suggestionItems="{ path: 'contS>/CONT_HEADERSet', parameters: { 'expand' : 'CONT_HEADERTOCONT_ITEM' } }">
+				<suggestionItems>
+					<!--<core:Item text="{i18n>agreementNumber} - {Agreements>AgreementNumber} {i18n>customerID} - {Agreements>CustomerID} {i18n>customerName} - {Agreements>CustomerName}"/>-->
+					<core:Item text="{i18n>agreementNumber} - {contS>Contractno} {i18n>customerID} - {contS>Custid} "/>
+				</suggestionItems>
+			</Input>
+			<l:HorizontalLayout  id="TileContainerExpanded" allowWrapping="true" content="{LandingPageModel>/TileCollection/line1}">
+				<GenericTile header="{LandingPageModel>title}" subheader="{LandingPageModel>info}" press="pressGenericTile"
+					class="sapUiTinyMarginBegin sapUiTinyMarginTop genericTileLayout"></GenericTile>
+			</l:HorizontalLayout>
+			<!--<l:HorizontalLayout allowWrapping="true" class="line2" content="{LandingPageModel>/TileCollection/line2}">
+				<GenericTile header="{LandingPageModel>title}" subheader="{LandingPageModel>info}" press="pressGenericTile"
+					class="sapUiTinyMarginBegin sapUiTinyMarginTop"></GenericTile>
+			</l:HorizontalLayout>-->
+		</l:VerticalLayout>
+	</VBox>
+</mvc:View>

@@ -1,0 +1,30 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core">
+	<!--<SelectDialog
+		title="Agreement"
+		class="sapUiPopupWithPadding"
+		items="{/HeaderCollection}"
+		search="_handleValueHelpSearch"
+		confirm="_handleValueHelpClose"
+		cancel="_handleValueHelpClose">
+		<StandardListItem
+			iconDensityAware="false"
+			iconInset="false"
+			title="{AgreementNumber}"
+			description="{CustomerName}" />
+	</SelectDialog>-->
+	<SelectDialog
+		title="Agreement"
+		class="sapUiPopupWithPadding"
+		items="{ path: 'contS>/CONT_HEADERSet', parameters: { 'expand' : 'CONT_HEADERTOCONT_ITEM' } }"
+		search="_handleValueHelpSearch"
+		confirm="_handleValueHelpClose"
+		cancel="_handleValueHelpClose">
+		<StandardListItem
+			iconDensityAware="false"
+			iconInset="false"
+			title="{contS>Contractno}"
+			description="{contS>Custid}" />
+	</SelectDialog>
+</core:FragmentDefinition>

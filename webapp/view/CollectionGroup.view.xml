@@ -1,0 +1,9 @@
+<mvc:View
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns:custom="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1"
+	controllerName="demonewcassini.controller.CollectionGroup"
+	xmlns="sap.m"
+	id="idCollectionGroup">
+	<SplitContainer id="idSplitContainerControl">
+	</SplitContainer>
+</mvc:View>

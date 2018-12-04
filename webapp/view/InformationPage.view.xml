@@ -1,0 +1,20 @@
+<mvc:View height="100%" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="demonewcassini.controller.InformationPage">
+	<!--<Switch state="true" change="onLangChange" customTextOn="EN" customTextOff="FR">
+					<layoutData>
+						<FlexItemData growFactor="1" />
+					</layoutData>
+				</Switch>-->
+	<!--<MessagePage showHeader="true"
+		 text="{i18n>collectionGroupManagment}"
+		 enableFormattedText="true"
+		 description="{i18n>collectionGroupManagmentDesc}" >
+		<buttons>
+			<Button text="{i18n>createCollectionGroup}" press="OnAddGroup"/>
+		</buttons>
+	</MessagePage>-->
+	<Button text="{i18n>createCollectionGroup}" type="Emphasized" press="OnAddGroup">
+		<layoutData>
+			<OverflowToolbarLayoutData priority="NeverOverflow"/>
+		</layoutData>
+	</Button>
+</mvc:View>

@@ -1,0 +1,15 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+		<SelectDialog
+		noDataText="{i18n>emptyTable}"
+		title="{i18n>addMaterial}"
+		search="handleMaterialSearch"
+		confirm="handleMaterialSearchClose"
+		items="{
+			path: 'SearchHelpModel>/'
+		}" >
+		<StandardListItem
+			title="{SearchHelpModel>ddtext}"
+			description="{SearchHelpModel>ddkey}"
+			type="Active" />
+	</SelectDialog>
+</core:FragmentDefinition>

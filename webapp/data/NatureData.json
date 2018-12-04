@@ -1,0 +1,81 @@
+{
+	"NatureCollection":[
+		{
+			"FTTNat":"1",
+			"FTTDesc":"REBATES - PERMANENT"
+		},
+		{
+			"FTTNat":"2",
+			"FTTDesc":"REBATES - DISTRIBUTION ALLOWANCE"
+		},
+		{
+			"FTTNat":"3",
+			"FTTDesc":"REBATES - DAMAGED GOODS ALLOWANCE"
+		},
+		{
+			"FTTNat":"4",
+			"FTTDesc":"REBATES - NEW STORE SUPPORT"
+		},
+		{
+			"FTTNat":"5",
+			"FTTDesc":"REBATES - AD-HOC"
+		},
+		{
+			"FTTNat":"A",
+			"FTTDesc":"UPFRONT AND LISTING FEES- LOCAL AGREEMENT"
+		},
+		{
+			"FTTNat":"B",
+			"FTTDesc":"UPFRONT AND LISTING FEES - REGIONAL AGREEMENT"
+		},
+		{
+			"FTTNat":"C",
+			"FTTDesc":"UPFRONT AND LISTING FEES - NATIONAL AGREEMENT"
+		},
+		{
+			"FTTNat":"D",
+			"FTTDesc":"UPFRONT AND LISTING FEES - INTERNATIONAL AGREEMENT"
+		},
+		{
+			"FTTNat":"E",
+			"FTTDesc":"INCENTIVES - SALES PERFORMANCE"
+		}
+		],
+		"TopazAccount":[
+			{
+				"FTTTopaz":"AP_FREEGOODS",
+				"DESC":"FREE GOODS - FTT"
+			},
+			{
+				"FTTTopaz":"AP_FTTACC",
+				"DESC":"ABONNENMENTS - FTT"
+			},
+			{
+				"FTTTopaz":"AP_FTTCOND",
+				"DESC":"CONDITIONAL TRADING"
+			},
+			{
+				"FTTTopaz":"AP_LISTING",
+				"DESC":"LUMP SUM INVEST"
+			},
+			{
+				"FTTTopaz":"AP_TEMP",
+				"DESC":"TEMP TRADING TERMS"
+			},
+			{
+				"FTTTopaz":"AP_TRADEDEAL",
+				"DESC":"PERM TRADING TERMS"
+			}
+			
+			],
+			"SETMETH":[
+				{
+					"SETMETHK":"MM",
+					"SETDESC":"FTT MM SETTLEMENT"
+				},
+				{
+					"SETMETHK":"SD",
+					"SETDESC":"FTT SD SETTLEMENT"
+				}
+				]
+}

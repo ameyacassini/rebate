@@ -1,0 +1,64 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:c="demonewcassini.control">
+	<Dialog id="ipupload" title="Copy Paste Excel" contentHeight="1200px" contentWidth="1200px">
+		<content>
+			<c:CopyPasteTable id='idTable' items="{UploadModel>/items}">
+				<c:items>
+					<!-- sap.m.ListItemBase -->
+					<ColumnListItem id='idColListTemp' xmlns="sap.m" detailPress="onDetailPress" press="onPress">
+						<cells>
+							<Input value="{UploadModel>fname}"></Input>
+							<Input value="{UploadModel>lname}"></Input>
+							<Input value="{UploadModel>company_name}"></Input>
+							<Input value="{UploadModel>email}"></Input>
+							<Input value="{UploadModel>country}"></Input>
+							<Input value="{UploadModel>phone}"></Input>
+						</cells>
+						<!-- sap.ui.core.Control -->
+					</ColumnListItem>
+				</c:items>
+				<c:columns>
+					<!-- sap.m.Column -->
+					<Column >
+						<header>
+							<Text text="ERP Billing Document #"></Text>
+						</header>
+						<!-- sap.ui.core.Control -->
+					</Column>
+					<Column >
+						<header>
+							<Text text="Line Item #"></Text>
+						</header>
+						<!-- sap.ui.core.Control -->
+					</Column>
+					<Column >
+						<header>
+							<Text text="Material Number"></Text>
+						</header>
+						<!-- sap.ui.core.Control -->
+					</Column>
+					<Column >
+						<header>
+							<Text text="Material Description"></Text>
+						</header>
+						<!-- sap.ui.core.Control -->
+					</Column>
+					<Column >
+						<header>
+							<Text text="Billing quantity"></Text>
+						</header>
+						<!-- sap.ui.core.Control -->
+					</Column>
+					<Column >
+						<header>
+							<Text text="Unit Of Measure"></Text>
+						</header>
+						<!-- sap.ui.core.Control -->
+					</Column>
+				</c:columns>
+			</c:CopyPasteTable>
+		</content>
+		<beginButton>
+			<Button press="onCancelRegDlg" text="OK"/>
+		</beginButton>
+	</Dialog>
+</core:FragmentDefinition>

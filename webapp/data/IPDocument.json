@@ -1,0 +1,82 @@
+{
+	"IPCollection":[
+		{
+			"DocumentNo" : "34000243",
+			"LineItem":"20",
+			"MaterailNumber": "1023760",
+			"MaterailDescription" : "BAILEYS MINIS SLEEVE 4*71ML 17° C6",
+			"MaterialTypeDescription": "BRANDY",
+			"BillingQuantity" : "3600",
+			"UOM": "COL",
+			"GrossPrice" : "46800.00",
+			"NetPrice" : "44460.00",
+			"Accruals" : "6669.00",
+			"ProductHierachy":"ABBVBDEBD1300"
+		},
+		{
+			"DocumentNo" : "34000243",
+			"LineItem":"50",
+			"MaterailNumber": "1036504",
+			"MaterialTypeDescription": "A.B.V",
+			"MaterailDescription" : "SMIRNOFF 21 FLASK 6x20CL 37,5° C8",
+			"BillingQuantity" : "600",
+			"UOM": "PCE",
+			"GrossPrice" : "12000.00",
+			"NetPrice" : "11400.00",
+			"Accruals" : "1140.00",
+			"ProductHierachy":"CHMC0F7138075"
+		},
+		
+		{
+			"DocumentNo" : "34000243",
+			"LineItem":"70",
+			"MaterailNumber": "1034864",
+			"MaterailDescription" : "GLENKINCHIE 12A 70CL 43° C6",
+			"MaterialTypeDescription": "MOUSSEUX",
+			"BillingQuantity" : "300",
+			"UOM": "COL",
+			"GrossPrice" : "6105.00",
+			"NetPrice" : "5799.75",
+			"Accruals" : "289.99",
+			"ProductHierachy":"CHKGK01KA1150"
+		},
+		
+		{
+			"DocumentNo" : "34000243",
+			"LineItem":"100",
+			"MaterailNumber": "4200386",
+			"MaterailDescription" : "J&B RARE 70CL 40° NEW PALET C6",
+			"BillingQuantity" : "600",
+			"UOM": "COL",
+			"GrossPrice" : "4716.00",
+			"NetPrice" : "4480.20",
+			"Accruals" : "224.01",
+			"ProductHierachy":"VATZD02D06075"
+		},
+		
+		{
+			"DocumentNo" : "34000243",
+			"LineItem":"110",
+				"MaterailNumber": "4200408",
+			"MaterailDescription" : "J&B RARE 100CL 40° C6",
+			"BillingQuantity" : "510",
+			"UOM": "COL",
+			"GrossPrice" : "5100.00",
+			"NetPrice" : "4845.00",
+			"Accruals" : "242.25",
+			"ProductHierachy":"CHMC0E2020150"
+		},
+			{
+			"DocumentNo" : "34000243",
+			"LineItem":"120",
+			"MaterailNumber": "4200386",
+			"MaterailDescription" : "J&B RARE 70CL 40° NEW PALET C6",
+			"BillingQuantity" : "300",
+			"UOM": "COL",
+			"GrossPrice" : "2358.00",
+			"NetPrice" : "2240.10",
+			"Accruals" : "112.01",
+			"ProductHierachy":"VATZD02D06075"
+		}
+		]
+}

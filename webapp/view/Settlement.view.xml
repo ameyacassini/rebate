@@ -1,0 +1,175 @@
+<mvc:View controllerName="demonewcassini.controller.Settlement" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:core="sap.ui.core"
+	xmlns:l="sap.ui.layout" xmlns:f="sap.ui.layout.form">
+	<!--<Page id="page" class="editRulePage">
+		<headerContent>
+			<Image src="/webapp/images/Sapours-Technologies.jpg" width="4em"></Image>
+		</headerContent>
+		<content>-->
+	<l:ResponsiveSplitter defaultPane="default">
+		<l:PaneContainer>
+			<l:SplitPane requiredParentWidth="400" id="default">
+				<!--<Panel height="100%">-->
+				<Image src="image/Sony-1.jpg" height = "auto" width = "100%" class="cropbox1"></Image>
+				<!--</Panel>-->
+			</l:SplitPane>
+			<l:SplitPane requiredParentWidth="600">
+				<!--<Panel height="100%" class="customClass">
+							<Image src="image/loading_1.gif" class="process_img"></Image>-->
+				<l:VerticalLayout>
+					<f:Form>
+						<f:layout>
+							<f:ResponsiveGridLayout labelSpanXL="4" labelSpanL="4" labelSpanM="12" labelSpanS="12" adjustLabelSpan="false" emptySpanXL="0"
+								emptySpanL="4" emptySpanM="0" emptySpanS="0" columnsXL="2" columnsL="2" columnsM="2" singleContainerFullSize="false"/>
+						</f:layout>
+						<f:formContainers>
+							<f:FormContainer>
+								<!--<f:toolbar>
+												<Toolbar>
+													<Title id="Title2" text="Header Data" level="H5" titleStyle="H5"/>
+												</Toolbar>
+											</f:toolbar>-->
+								<f:formElements>
+									<f:FormElement label="Posting Period">
+										<f:fields>
+											<Input type="Text" id="postingPerd" placeholder="Enter Posting Period ..." showSuggestion="true"
+												suggestionItemSelected="suggestionItemSelected" suggestionItems="{AccModel>/AccrualCollection}">
+												<suggestionItems>
+													<core:Item text="{AccModel>PostPeriod}"/>
+												</suggestionItems>
+											</Input>
+										</f:fields>
+									</f:FormElement>
+										<!--	<f:FormElement label="Document Date">
+										<f:fields>
+										<DatePicker id="DP2" value="" valueFormat="yyyy-MM-dd" displayFormat="long" class="sapUiSmallMarginBottom"/>
+										</f:fields>
+									</f:FormElement>-->
+										<f:FormElement label="Posting Date">
+										<f:fields>
+											<DatePicker id="DP3" value="{DateModel>/currentDate}" valueFormat="yyyy-MM-dd" displayFormat="long" class="sapUiSmallMarginBottom"/>
+										</f:fields>
+									</f:FormElement>
+									<!--<f:FormElement label="Customer">
+													<f:fields>
+														<Input id="customer" value="" class="ocrTextBox">
+															<customData>
+																<core:CustomData key="elementid" value="customer" writeToDom="true" />
+															</customData>
+														</Input>
+													</f:fields>
+												</f:FormElement>-->
+									<f:FormElement label="{i18n>refrenceNumber}">
+										<f:fields>
+											<Input id="refNumber" value="" class="ocrTextBox">
+												<customData>
+													<core:CustomData key="elementid" value="refNumber" writeToDom="true"/>
+												</customData>
+											</Input>
+										</f:fields>
+									</f:FormElement>
+									<!--<f:FormElement label="Text">
+													<f:fields>
+														<Input id="text" value="" class="ocrTextBox">
+															<customData>
+																<core:CustomData key="elementid" value="text" writeToDom="true" />
+															</customData>
+														</Input>
+													</f:fields>
+												</f:FormElement>-->
+									<f:FormElement label="{i18n>taxCode}">
+										<f:fields>
+											<Input id="taxCode" value="N1" class="ocrTextBox" width="50px">
+												<customData>
+													<core:CustomData key="elementid" value="taxCode" writeToDom="true"/>
+												</customData>
+											</Input>
+										</f:fields>
+									</f:FormElement>
+								</f:formElements>
+							</f:FormContainer>
+							<f:FormContainer>
+								<f:formElements>
+									<f:FormElement label="{i18n>customer}">
+										<f:fields>
+											<Input id="customer" value="{CompSettleModel>/CustomerName}" class="ocrTextBox">
+												<customData>
+													<core:CustomData key="elementid" value="{CompSettleModel>/CustomerName}" writeToDom="true"/>
+												</customData>
+											</Input>
+										</f:fields>
+									</f:FormElement>
+									<f:FormElement label="{i18n>text}">
+										<f:fields>
+											<Input id="text" value="" class="ocrTextBox">
+												<customData>
+													<core:CustomData key="elementid" value="text" writeToDom="true"/>
+												</customData>
+											</Input>
+										</f:fields>
+									</f:FormElement>
+									<f:FormElement label="Gross Amount">
+										<f:fields>
+											<Input id="grossAmount" editable="false" value="" class="ocrTextBox">
+											</Input>
+										</f:fields>
+									</f:FormElement>
+									<f:FormElement label="Net Amount">
+										<f:fields>
+											<Input id="netAmount" value="" editable = "false" class="ocrTextBox">
+											</Input>
+										</f:fields>
+									</f:FormElement>
+									<f:FormElement label="{i18n>taxAmount}">
+										<f:fields>
+											<Input id="taxAmount" editable="false" value="" class="ocrTextBox">
+												<customData>
+													<core:CustomData key="elementid" value="taxAmount" writeToDom="true"/>
+												</customData>
+											</Input>
+										</f:fields>
+									</f:FormElement>
+								</f:formElements>
+							</f:FormContainer>
+						</f:formContainers>
+					</f:Form>
+					<Table id="editTable" items="{ path:'SettlementTabModel>/SETTLE_HEADERTOSETTLE_ITEM/results' }" updateFinished="onUpdateFinished" class="SapTable SapTableEdit">
+						<headerToolbar>
+							<Toolbar>
+								<Title text="Settlement" level="H2"/>
+								<ToolbarSpacer></ToolbarSpacer>
+								<Button text="Post Settlements" press="onPostSettlement" type="Emphasized"/>
+							</Toolbar>
+						</headerToolbar>
+						<columns>
+							<Column ><Text text="{i18n>collectionGroup}"/></Column>
+							<!--<Column ><Text text="{i18n>collectionGroupdesc}"/></Column>-->
+							<Column><Text text="{i18n>fTtNature}"/></Column>
+							<Column><Text text="{i18n>accruedAmount}"/></Column>
+							<Column><Text text="{i18n>customerExpectedValue}"/></Column>
+						</columns>
+						<items>
+							<ColumnListItem>
+								<cells>
+									<Text id="idPHS" class="" text="{SettlementTabModel>Prodno}"/>
+								</cells>
+								<!--<cells><Text  id="idInpLength" class="" text="{CompSettleLineModel>PHD}"/>
+										</cells>-->
+								<cells>
+									<Text id="idInpValue" class="writableVal" text="{SettlementTabModel>Natureid}"/></cells>
+								<cells>
+									<Text id="InpValue" class="writableVal" text="{SettlementTabModel>Accamount}"/>
+								</cells>
+								<cells>
+									<Input editable="true" id="Inpcust" class="writableVal" value="" submit="onEnterCustVal"/>
+								</cells>
+							</ColumnListItem>
+						</items>
+					</Table>
+				</l:VerticalLayout>
+				<!--</Panel>-->
+			</l:SplitPane>
+		</l:PaneContainer>
+	</l:ResponsiveSplitter>
+	<!--</content>
+	</Page>-->
+</mvc:View>

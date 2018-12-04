@@ -1,0 +1,15 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core">
+	<SelectDialog
+		title="Settlement Method"
+		class="sapUiPopupWithPadding"
+		items="{NatureModel>/SETMETH}"
+		search="_handleValueHelpSearchSM"
+		confirm="_handleValueHelpCloseSM"
+		cancel="_handleValueHelpCloseSM">
+		<StandardListItem
+			title="{NatureModel>SETMETHK}"
+			description="{NatureModel>SETDESC}" />
+	</SelectDialog>
+</core:FragmentDefinition>

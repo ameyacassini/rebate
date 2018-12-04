@@ -1,0 +1,40 @@
+{
+	"AgreementCollection": [
+		{
+		"ID":"1001",
+		"Customer": "HT-1000",
+		"CustomerName": "ABC",
+		"Country": "USA",
+		"SalesArea":"Test 1000",
+		"Currency":"DOL"
+	}, {
+		"ID":"1002",
+		"Customer": "HT-1001",
+		"CustomerName": "XYZ",
+		"Country": "India",
+		"SalesArea":"Test 1001",
+		"Currency":"INR"
+	}, {
+		"ID":"1003",
+		"Customer": "HT-1002",
+		"CustomerName": "PQR",
+		"Country": "Germany",
+		"SalesArea":"Test 1002",
+		"Currency":"EUR"
+	}, {
+		"ID":"1004",
+		"Customer": "HT-1003",
+		"CustomerName": "ABC",
+		"Country": "Singapore",
+		"SalesArea":"Test 1003",
+		"Currency":"SGD"
+	}, {
+		"ID":"1005",
+		"Customer": "HT-1004",
+		"CustomerName": "ABC",
+		"Country": "USA",
+		"SalesArea":"Test 1004",
+		"Currency":"DOL"
+	}
+	]
+}

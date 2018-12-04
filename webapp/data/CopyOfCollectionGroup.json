@@ -1,0 +1,482 @@
+{
+	"CollectionGroupInformation": [{
+		"groupId": "10025",
+		"groupType": "Prodh4",
+		"description": "Prodh4 description",
+		"soldToParty": "982354",
+		"soldToPartynaming": "Snehal Kendre",
+		"validFrom": "2017-03-26",
+		"validTo": "2018-11-23",
+		"documentDate": "2018-02-23",
+		"CreatedBy": "snehal kendre",
+		"NoOfItems": "4",
+		
+		
+		
+		"Items": [{
+			"ItemNo": 10,
+			"namingDescription": "viskey",
+			"namingkey": "viskey",
+			"brandDescription": "Johney walker",
+			"brandkey": "Johney walker",
+			"qualityGroupDescription": "premium",
+			"qualityGroupkey": "premium",
+			"qualityDescription": "premium",
+			"qualitykey": "premium",
+			"materialDescription": "blue label",
+			"materialkey": "blue label",
+			"bottleSizekey": "800ml",
+			"bottleSizeDescription": "800ml"
+			
+			
+			
+		}, {
+			"ItemNo": 20,
+			"namingDescription": "viskey1",
+			"namingkey": "viskey",
+			"brandDescription": "Johney walker",
+			"brandkey": "Johney walker",
+			"qualityGroupDescription": "premium",
+						"qualityGroupkey": "premium",
+						"qualityDescription": "premium",
+			"qualitykey": "premium",
+			"materialDescription": "blue label",
+			"materialkey": "blue label",
+						"bottleSizekey": "800ml",
+			"bottleSizeDescription": "800ml"
+			
+			
+			
+		}]
+	},{
+		"groupId": "78768",
+		"groupType": "Prodh7",
+		"description": "Prodh4 description",
+		"soldToParty": "1256489",
+		"soldToPartynaming": "Ameya p",
+		"validFrom": "2017-03-26",
+		"validTo": "2018-11-23",
+		"documentDate": "2018-02-23",
+		"CreatedBy": "snehal kendre",
+		"NoOfItems": "4",
+		
+		
+		
+		"Items": [{
+			"ItemNo": 10,
+		
+		
+			"naming": "viskey",
+			"brand": "Johney walker",
+			"qualityGroup": "premium",
+			"material": "blue label",
+			"bottleSizekey": "800ml"
+			
+			
+			
+		}, {
+			"ItemNo": 20,
+		
+		
+			"naming": "viskey",
+			"brand": "Johney walker",
+			"qualityGroup": "premium",
+			"material": "platinum label",
+			"bottleSizekey": "800ml"
+			
+			
+			
+		}]
+	},{
+		"groupId": "67764",
+		"groupType": "Prodh4",
+		"description": "Prodh4 description",
+		"soldToParty": "1256489",
+		"soldToPartynaming": "Chokya C",
+		"validFrom": "2017-03-26",
+		"validTo": "2018-11-23",
+		"documentDate": "2018-02-23",
+		"CreatedBy": "snehal kendre",
+		"NoOfItems": "4",
+		
+		
+		
+		"Items": [{
+			"ItemNo": 10,
+		
+		
+			"naming": "viskey",
+			"brand": "Johney walker",
+			"qualityGroup": "premium",
+			"material": "blue label",
+			"bottleSizekey": "800ml"
+			
+			
+			
+		}, {
+			"ItemNo": 20,
+		
+		
+			"naming": "viskey",
+			"brand": "Johney walker",
+			"qualityGroup": "premium",
+			"material": "platinum label",
+			"bottleSizekey": "800ml"
+			
+			
+			
+		}]
+	},{
+		"groupId": "10025",
+		"groupType": "Prodh4",
+		"description": "Prodh4 description",
+		"soldToParty": "1256489",
+		"soldToPartynaming": "Peter Parker",
+		"validFrom": "2017-03-26",
+		"validTo": "2018-11-23",
+		"documentDate": "2018-02-23",
+		"CreatedBy": "snehal kendre",
+		"NoOfItems": "4",
+		
+		
+		
+		"Items": [{
+			"ItemNo": 10,
+		
+		
+			"naming": "viskey",
+			"brand": "Johney walker",
+			"qualityGroup": "premium",
+			"material": "blue label",
+			"bottleSizekey": "800ml"
+			
+			
+			
+		}, {
+			"ItemNo": 20,
+		
+		
+			"naming": "viskey",
+			"brand": "Johney walker",
+			"qualityGroup": "premium",
+			"material": "platinum label",
+			"bottleSizekey": "800ml"
+			
+			
+			
+		}]
+	},{
+		"groupId": "23589",
+		"groupType": "Prodh3",
+		"description": "Prodh4 description",
+		"soldToParty": "354354",
+		"soldToPartynaming": "iron Man",
+		"validFrom": "2017-03-26",
+		"validTo": "2018-11-23",
+		"documentDate": "2018-02-23",
+		"CreatedBy": "snehal kendre",
+		"NoOfItems": "4",
+		
+		
+		
+		"Items": [{
+			"ItemNo": 10,
+		
+		
+			"naming": "viskey",
+			"brand": "Johney walker",
+			"qualityGroup": "premium",
+			"material": "blue label",
+			"bottleSizekey": "800ml"
+			
+			
+			
+		}, {
+			"ItemNo": 20,
+		
+		
+			"naming": "viskey",
+			"brand": "Johney walker",
+			"qualityGroup": "premium",
+			"material": "platinum label",
+			"bottleSizekey": "800ml"
+			
+			
+			
+		}]
+	},{
+		"groupId": "9785",
+		"groupType": "Prodh4",
+		"description": "Prodh4 description",
+		"soldToParty": "657856",
+		"soldToPartynaming": "Nayan",
+		"validFrom": "2017-03-26",
+		"validTo": "2018-11-23",
+		"documentDate": "2018-02-23",
+		"CreatedBy": "snehal kendre",
+		"NoOfItems": "4",
+		
+		
+		
+		"Items": [{
+			"ItemNo": 10,
+		
+		
+			"naming": "viskey",
+			"brand": "Johney walker",
+			"qualityGroup": "premium",
+			"material": "blue label",
+			"bottleSizekey": "800ml"
+			
+			
+			
+		}, {
+			"ItemNo": 20,
+		
+		
+			"naming": "viskey",
+			"brand": "Johney walker",
+			"qualityGroup": "premium",
+			"material": "platinum label",
+			"bottleSizekey": "800ml"
+			
+			
+			
+		}]
+	},{
+		"groupId": "32435",
+		"groupType": "Prodh4",
+		"description": "Prodh4 description",
+		"soldToParty": "8978",
+		"soldToPartynaming": "Nikhil",
+		"validFrom": "2017-03-26",
+		"validTo": "2018-11-23",
+		"documentDate": "2018-02-23",
+		"CreatedBy": "snehal kendre",
+		"NoOfItems": "4",
+		
+		
+		
+		"Items": [{
+			"ItemNo": 10,
+		
+		
+			"naming": "viskey",
+			"brand": "Johney walker",
+			"qualityGroup": "premium",
+			"material": "blue label",
+			"bottleSizekey": "800ml"
+			
+			
+			
+		}, {
+			"ItemNo": 20,
+		
+		
+			"naming": "viskey",
+			"brand": "Johney walker",
+			"qualityGroup": "premium",
+			"material": "platinum label",
+			"bottleSizekey": "800ml"
+			
+			
+			
+		}]
+	},{
+		"groupId": "54435",
+		"groupType": "Prodh5",
+		"description": "Prodh4 description",
+		"soldToParty": "35956",
+		"soldToPartynaming": "Samrat Ashoka",
+		"validFrom": "2017-03-26",
+		"validTo": "2018-11-23",
+		"documentDate": "2018-02-23",
+		"CreatedBy": "snehal kendre",
+		"NoOfItems": "4",
+		
+		
+		
+		"Items": [{
+			"ItemNo": 10,
+		
+		
+			"naming": "viskey",
+			"brand": "Johney walker",
+			"qualityGroup": "premium",
+			"material": "blue label",
+			"bottleSizekey": "800ml"
+			
+			
+			
+		}, {
+			"ItemNo": 20,
+		
+		
+			"naming": "viskey",
+			"brand": "Johney walker",
+			"qualityGroup": "premium",
+			"material": "platinum label",
+			"bottleSizekey": "800ml"
+			
+			
+			
+		}]
+	},{
+		"groupId": "12323",
+		"groupType": "Prodh9",
+		"description": "Prodh4 description",
+		"soldToParty": "78654",
+		"soldToPartynaming": "Donal Trump",
+		"validFrom": "2017-03-26",
+		"validTo": "2018-11-23",
+		"documentDate": "2018-02-23",
+		"CreatedBy": "snehal kendre",
+		"NoOfItems": "4",
+		
+		
+		
+		"Items": [{
+			"ItemNo": 10,
+		
+		
+			"naming": "viskey",
+			"brand": "Johney walker",
+			"qualityGroup": "premium",
+			"material": "blue label",
+			"bottleSizekey": "800ml"
+			
+			
+			
+		}, {
+			"ItemNo": 20,
+		
+		
+			"naming": "viskey",
+			"brand": "Johney walker",
+			"qualityGroup": "premium",
+			"material": "platinum label",
+			"bottleSizekey": "800ml"
+			
+			
+			
+		}]
+	},{
+		"groupId": "78978",
+		"groupType": "Prodh4",
+		"description": "Prodh4 description",
+		"soldToParty": "54543",
+		"soldToPartynaming": "N Modi",
+		"validFrom": "2017-03-26",
+		"validTo": "2018-11-23",
+		"documentDate": "2018-02-23",
+		"CreatedBy": "snehal kendre",
+		"NoOfItems": "4",
+		
+		
+		
+		"Items": [{
+			"ItemNo": 10,
+		
+		
+			"naming": "viskey",
+			"brand": "Johney walker",
+			"qualityGroup": "premium",
+			"material": "blue label",
+			"bottleSizekey": "800ml"
+			
+			
+			
+		}, {
+			"ItemNo": 20,
+		
+		
+			"naming": "viskey",
+			"brand": "Johney walker",
+			"qualityGroup": "premium",
+			"material": "platinum label",
+			"bottleSizekey": "800ml"
+			
+			
+			
+		}]
+	},{
+		"groupId": "65465",
+		"groupType": "Prodh4",
+		"description": "Prodh4 description",
+		"soldToParty": "786",
+		"soldToPartynaming": "bill Gates",
+		"validFrom": "2017-03-26",
+		"validTo": "2018-11-23",
+		"documentDate": "2018-02-23",
+		"CreatedBy": "snehal kendre",
+		"NoOfItems": "4",
+		
+		
+		
+		"Items": [{
+			"ItemNo": 10,
+		
+		
+			"naming": "viskey",
+			"brand": "Johney walker",
+			"qualityGroup": "premium",
+			"material": "blue label",
+			"bottleSizekey": "800ml"
+			
+			
+			
+		}, {
+			"ItemNo": 20,
+		
+		
+			"naming": "viskey",
+			"brand": "Johney walker",
+			"qualityGroup": "premium",
+			"material": "platinum label",
+			"bottleSizekey": "800ml"
+			
+			
+			
+		}]
+	},{
+		"groupId": "23578",
+		"groupType": "Prodh5",
+		"description": "Prodh4 description",
+		"soldToParty": "8732",
+		"soldToPartynaming": "Mark Twain",
+		"validFrom": "2017-03-26",
+		"validTo": "2018-11-23",
+		"documentDate": "2018-02-23",
+		"CreatedBy": "snehal kendre",
+		"NoOfItems": "4",
+		
+		
+		
+		"Items": [{
+			"ItemNo": 10,
+		
+		
+			"naming": "viskey",
+			"brand": "Johney walker",
+			"qualityGroup": "premium",
+			"material": "blue label",
+			"bottleSizekey": "800ml"
+			
+			
+			
+		}, {
+			"ItemNo": 20,
+		
+		
+			"naming": "viskey",
+			"brand": "Johney walker",
+			"qualityGroup": "premium",
+			"material": "platinum label",
+			"bottleSizekey": "800ml"
+			
+			
+			
+		}]
+	}]
+
+}

@@ -1,0 +1,54 @@
+<core:FragmentDefinition height="100%" xmlns:layout="sap.ui.layout" xmlns:form="sap.ui.layout.form" xmlns:core="sap.ui.core" xmlns="sap.m">
+	<Page id="wizardReviewPage" showHeader="false" navButtonPress="onNavPress"
+		showNavButton="true">
+		<content>
+			<form:SimpleForm title="1.Header Data" minWidth="1024" editable="false" layout="ResponsiveGridLayout">
+				<form:content>
+					<Label text="Order Type"/>
+					<Text id="OrderType" text="{/ordertype}"/>
+					<Label text="Priority"/>
+					<Text id="priority" text="{/ordertype}"/>
+					<Label text="Func. Loc"/>
+					<Text id="funloct" text="{/funloctt}"/>
+					<Label text="Equipment"/>
+					<Text id="equip" text="{/equipment}"/>
+					<Label text="Assembly"/>
+					<Text id="ass" text="{/assmbly}"/>
+					<Label text="Business Area"/>
+					<Text id="busnessarea" text="{/busnessarea}"/>
+					<Link press="editStepOne" text="Edit"/>
+				</form:content>
+			</form:SimpleForm>
+			<form:SimpleForm title="2. Central Header" minWidth="1024" editable="false" layout="ResponsiveGridLayout">
+				<form:content>
+					<Label text="Sy Status"/>
+					<Text id="Status" text="{/plannergrp}"/>
+					<Label text="Man Wk."/>
+					<Text id="Wk" text="{/mnwkctr}"/>
+					<Label text="Start Date"/>
+					<Text id="stdt" text="{/startdate}"/>
+					<Label text="Finish Date"/>
+					<Text id="fdt" text="{/finishdate}"/>
+					<Link press="editStepTwo" text="Edit"/>
+				</form:content>
+			</form:SimpleForm>
+			<form:SimpleForm title="3. Optional Information" minWidth="1024" editable="false" layout="ResponsiveGridLayout">
+				<form:content>
+					<Label text="Start Date"/>
+					<Text id="stdt1" text="{/startdate}"/>
+					<Label text="Finish Date"/>
+					<Text id="fdt1" text="{/finishdate}"/>
+					<Link press="editStepThree" text="Edit"/>
+				</form:content>
+			</form:SimpleForm>
+		</content>
+		<footer>
+			<Bar>
+				<contentRight>
+					<Button text="Submit" press="handleWizardSubmit"></Button>
+					<Button text="Cancel" press="handleWizardCancel"></Button>
+				</contentRight>
+			</Bar>
+		</footer>
+	</Page>
+</core:FragmentDefinition>

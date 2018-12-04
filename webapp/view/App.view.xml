@@ -1,0 +1,13 @@
+<mvc:View 
+	controllerName="demonewcassini.controller.App" 
+	xmlns:html="http://www.w3.org/1999/xhtml" 
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc" 
+	xmlns:l="sap.ui.layout" 
+	xmlns:uxap="sap.uxap" 
+	xmlns:core="sap.ui.core" 
+	xmlns:tnt="sap.tnt"
+	id="idApp">
+	<core:Fragment fragmentName="demonewcassini.fragment.Header" type="XML"/>
+	<App id="idAppControl"/>
+</mvc:View>

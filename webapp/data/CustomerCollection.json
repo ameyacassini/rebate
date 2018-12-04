@@ -1,0 +1,92 @@
+{
+	"CustomerCollection": [{
+		"CustomerID": "0003130341",
+		"CustomerName": "CARREFOUR",
+		"Country": "France",
+		"SalesArea": "5001",
+		"Currency": "EUR",
+		"PhasingT": "Business Plan",
+		"LinearRule": "Rule 123",
+		"BillingDocNoDet": {
+			"BillingDocNo": "0034000243",
+			"StartDate": "20-01-2017",
+			"EndDate": "20-01-2017"
+		}
+	}, {
+		"CustomerID": "0000072000",
+		"CustomerName": "AUCHAN DUTTLENHEIM",
+		"Country": "Germany",
+		"SalesArea": "Test 2000",
+		"Currency": "EUR",
+		"PhasingT": "ABC",
+		"LinearRule": "Rule 123",
+		"BillingDocNoDet": {
+			"BillingDocNo": "0034000248",
+			"StartDate": "20-01-2017",
+			"EndDate": "20-01-2017"
+		}
+	}, {
+		"CustomerID": "0003129863",
+		"CustomerName": "MR BOUCHARD OLIVIER",
+		"Country": "Germany",
+		"SalesArea": "Test 9800",
+		"Currency": "EUR",
+		"PhasingT": "ABC",
+		"LinearRule": "Rule 123",
+		"BillingDocNoDet": {
+			"BillingDocNo": "0034000249",
+			"StartDate": "20-01-2017",
+			"EndDate": "20-01-2017"
+		}
+
+	}],
+	"MatDetails": [{
+		"MaterailID": "000000000004200569",
+		"MaterailDes": "PICON B. 100CL 18° BOX 312 C1",
+		"ItemNo": "10",
+		"NetValue": "25231",
+		"ProdGrp": "22000000",
+		"documentDate": "2018-4-8",
+		"CreatedBy": "Nikhil Joshi",
+		"NoOfItems": 1,
+		"description": "LI flexible group",
+		"Items": [{
+
+			"namingDescription": "LIQUEURS + AMER",
+			"namingkey": "LI"
+
+		}]
+	}, {
+		"MaterailID": "000000000001034545",
+		"MaterailDes": "PICON BIERE 150CL 18° C6",
+		"ItemNo": "80",
+		"NetValue": "563434",
+		"ProdGrp": "22000001",
+		"documentDate": "2018-4-8",
+		"CreatedBy": "Nikhil Joshi",
+		"NoOfItems": 1,
+		"description": "AB Collection Group",
+		"Items": [{
+
+			"namingDescription": "ALCOOLS BLANCS",
+			"namingkey": "AB"
+		}]
+	}, {
+		"MaterailID": "N21C6L18",
+		"MaterailDes": "PICON CLUB 100CL 18° C6",
+		"ItemNo": "30",
+		"NetValue": "45131",
+		"ProdGrp": "22000002",
+		"documentDate": "2018-4-8",
+		"CreatedBy": "Nikhil Joshi",
+		"NoOfItems": 2,
+		"description": "whiskey collection group",
+			"Items": [{
+
+
+			"namingDescription": "WHISKIES",
+			"namingkey": "WH"
+		}]
+	}
+	]
+}

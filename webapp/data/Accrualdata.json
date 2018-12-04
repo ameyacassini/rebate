@@ -1,0 +1,52 @@
+{
+	"AccrualCollection": [{
+		"PostPeriod": "01",
+		"DocumentDate": "31-01-2018",
+		"AccrualDate": "31-01-2018"
+	}, {
+		"PostPeriod": "02",
+		"DocumentDate": "28-02-2018",
+		"AccrualDate": "28-02-2018"
+	}, {
+		"PostPeriod": "03",
+		"DocumentDate": "31-03-2018",
+		"AccrualDate": "31-03-2018"
+	}, {
+		"PostPeriod": "04",
+		"DocumentDate": "30-04-2018",
+		"AccrualDate": "30-04-2018"
+	}, {
+		"PostPeriod": "05",
+		"DocumentDate": "31-05-2018",
+		"AccrualDate": "31-05-2018"
+	}, {
+		"PostPeriod": "06",
+		"DocumentDate": "30-06-2018",
+		"AccrualDate": "30-06-2018"
+	}, {
+		"PostPeriod": "07",
+		"DocumentDate": "31-07-2018",
+		"AccrualDate": "31-07-2018"
+	}, {
+		"PostPeriod": "08",
+		"DocumentDate": "31-08-2018",
+		"AccrualDate": "31-08-2018"
+	}, {
+		"PostPeriod": "09",
+		"DocumentDate": "30-09-2018",
+		"AccrualDate": "30-09-2018"
+	}, {
+		"PostPeriod": "10",
+		"DocumentDate": "31-10-2018",
+		"AccrualDate": "31-10-2018"
+	}, {
+		"PostPeriod": "11",
+		"DocumentDate": "30-11-2018",
+		"AccrualDate": "30-11-2018"
+	}, {
+		"PostPeriod": "12",
+		"DocumentDate": "31-12-2018",
+		"AccrualDate": "31-12-2018"
+	}]
+
+}

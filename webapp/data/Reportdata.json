@@ -1,0 +1,30 @@
+{
+	"RepCollect": [{
+		"Brand": "MOET & CHANDON",
+		"Rebate": 350000,
+		"Cost": 94383.52,
+		"Consumption": 76855.15368
+	}, {
+		"Brand": "HENNESSY",
+		"Rebate": 150000,
+		"Cost": 274735.17,
+		"Consumption": 310292.22
+	}, {
+		"Brand": "BELVEDERE",
+		"Rebate": 175000,
+		"Cost": 233160.58,
+		"Consumption": 143432.18
+	}, {
+		"Brand": "VEUVE CLICQUOT",
+		"Rebate": 125000,
+		"Cost": 235072.19,
+		"Consumption": 487910.26
+	},
+	{
+		"Brand": "DOM PERIGNON",
+		"Rebate": 200000,
+		"Cost": 235072.19,
+		"Consumption": 487910.26
+	}
+	]
+}

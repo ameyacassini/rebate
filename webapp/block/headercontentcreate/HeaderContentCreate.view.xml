@@ -1,0 +1,28 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns:u="sap.ui.unified" xmlns:forms="sap.ui.layout.form" xmlns="sap.m" xmlns:core="sap.ui.core"
+controller="demonewcassini.block.headercontentcreate.HeaderContentCreate">
+	<forms:SimpleForm>
+		<core:Title text="Header Data"/>
+		<Label text="Enter Customer Name"/>
+		<Input id="customerInput" type="Text" placeholder="Enter Customer Number ..." showSuggestion="true" showValueHelp="true"
+			valueHelpRequest="handleValueHelpCust" submit="onNavigate" suggestionItems="{CustomerModel>/CustomerCollection}" width="auto">
+			<suggestionItems>
+				<core:Item text="{CustomerModel>CustomerID}"/>
+			</suggestionItems>
+		</Input>
+		<Label text="Valid From"/>
+		<DatePicker id="DP2" value="2018-01-01" valueFormat="yyyy-MM-dd" displayFormat="long" change="onPSFG13" class="sapUiSmallMarginBottom"/>
+		<Label text="Valid Till"/>
+		<DatePicker id="DP3" value="2018-12-31" valueFormat="yyyy-MM-dd" displayFormat="long" change="onPSFG14" class="sapUiSmallMarginBottom"/>
+		<core:Title text="Upload"/>
+		<Label text="Select File"/>
+		<u:FileUploader id="fileUploader" name="myFileUpload" uploadComplete="onInnerDummy"/>
+		<Button text="Upload File" press="handleUploadPress"/>
+		<core:Title text="Customer Details"/>
+		<Label text="Sales Organization"/>
+		<Input id="hdSalesOrg" value="" editable="false"/>
+		<Label text="Country"/>
+		<Input id="hdCountry" value="" editable="false"/>
+		<Label text="Currency"/>
+		<Input id="hdCurrency" value="" editable="false"/>
+	</forms:SimpleForm>
+</mvc:View>

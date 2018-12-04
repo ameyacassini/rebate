@@ -1,0 +1,6 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+	<SelectDialog title="Customer" class="sapUiPopupWithPadding" items="{CustomerModel>/CustomerCollection}" search="_handleValueHelpSearchCust"
+		confirm="_handleValueHelpCloseCust" cancel="_handleValueHelpCloseCust">
+		<StandardListItem title="{CustomerModel>CustomerID}" description="{CustomerModel>CustomerName}" info="{CustomerModel>SalesArea}"/>
+	</SelectDialog>
+</core:FragmentDefinition>

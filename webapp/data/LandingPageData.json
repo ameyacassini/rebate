@@ -1,0 +1,51 @@
+{
+	"TileCollection" : {
+		"line1": [
+			{
+				"info" : "Product Hierarchy Set",
+				"title" : "Product Hierarchy Set",
+				"infoState" : "Success",
+				"icon" : "sap-icon://bar-chart",
+				"iconColor" : "#ffffff",
+				"bgColor" : "rgb(57, 123, 110)",
+				"borderColor" : "rgb(57, 123, 110)"
+			},
+			{
+				"info" : "Create Contract",
+				"icon" : "sap-icon://create-form",
+				"title" : "Create Contract",
+				"infoState" : "Success",
+				"iconColor" : "#ffffff",
+				"bgColor" : "rgb(57, 123, 110)",
+				"borderColor" : "rgb(57, 123, 110)"
+			},
+			{
+				"info" : "Mass Upload",
+				"title" : "Mass Upload",
+				"infoState" : "Success",
+				"icon" : "sap-icon://upload",
+				"iconColor" : "#ffffff",
+				"bgColor" : "rgb(57, 123, 110)",
+				"borderColor" : "rgb(57, 123, 110)"
+			},
+			{
+				"info" : "Post",
+				"title" : "Mass Process - Accrual",
+				"infoState" : "Success",
+				"icon" : "sap-icon://create",
+				"iconColor" : "#ffffff",
+				"bgColor" : "rgb(57, 123, 110)",
+				"borderColor" : "rgb(57, 123, 110)"
+			},
+			{
+				"info" : "Report",
+				"title" : "Analytics",
+				"infoState" : "Success",
+				"icon" : "sap-icon://bar-chart",
+				"iconColor" : "#ffffff",
+				"bgColor" : "rgb(57, 123, 110)",
+				"borderColor" : "rgb(57, 123, 110)"
+			}
+		]
+	}
+}

@@ -1,0 +1,346 @@
+{
+	"_version": "1.7.0",
+	"sap.app": {
+		"id": "demonewcassini",
+		"type": "application",
+		"i18n": "i18n/i18n.properties",
+		"applicationVersion": {
+			"version": "1.0.0"
+		},
+		"title": "{{appTitle}}",
+		"description": "{{appDescription}}",
+		"sourceTemplate": {
+			"id": "ui5template.basicSAPUI5ApplicationProject",
+			"version": "1.38.11"
+		},
+		"dataSources": {
+			"init_data_alias": {
+				"uri": "data/HeaderData.json",
+				"type": "JSON"
+			},
+			"reportData": {
+				"uri": "data/Reportdata.json",
+				"type": "JSON"
+			},
+			"mainService": {
+				"uri": "/sap/opu/odata/SAP/ZRBTSER_REBATE_LAUNCHPAD_SRV",
+				"type": "OData",
+				"settings": {
+					"odataVersion": "2.0",
+					"localUri": "localService/metadata.xml"
+				}
+			},
+			"contractService": {
+				"uri": "/sap/opu/odata/SAP/ZRBTSER_GET_CONTRACT_SRV",
+				"type": "OData",
+				"settings": {
+					"odataVersion": "2.0",
+					"localUri": "localService/metadata.xml"
+				}
+			}
+		}
+	},
+	"sap.ui": {
+		"technology": "UI5",
+		"icons": {
+			"icon": "",
+			"favIcon": "",
+			"phone": "",
+			"phone@2": "",
+			"tablet": "",
+			"tablet@2": ""
+		},
+		"deviceTypes": {
+			"desktop": true,
+			"tablet": true,
+			"phone": true
+		},
+		"supportedThemes": [
+			"sap_hcb",
+			"sap_bluecrystal"
+		]
+	},
+	"sap.ui5": {
+		"rootView": {
+			"viewName": "demonewcassini.view.App",
+			"type": "XML"
+		},
+		"dependencies": {
+			"minUI5Version": "1.30.0",
+			"libs": {
+				"sap.ui.core": {},
+				"sap.m": {},
+				"sap.ui.layout": {},
+				"sap.ushell": {},
+				"sap.collaboration": {},
+				"sap.ui.comp": {},
+				"sap.uxap": {}
+			}
+		},
+		"contentDensities": {
+			"compact": true,
+			"cozy": true
+		},
+		"models": {
+			"i18n": {
+				"type": "sap.ui.model.resource.ResourceModel",
+				"settings": {
+					"bundleName": "demonewcassini.i18n.i18n"
+				}
+			},
+			"": {
+				"type": "sap.ui.model.json.JSONModel",
+				"dataSource": "init_data_alias"
+			},
+			"reportData": {
+				"type": "sap.ui.model.json.JSONModel",
+				"dataSource": "reportData"
+			},
+			"ReportModel": {
+				"type": "sap.ui.model.json.JSONModel",
+				"uri": "data/Reportdata.json"
+			},
+			"CollectionGroupInformation": {
+				"type": "sap.ui.model.json.JSONModel",
+				"uri": "utils/CollectionGroup.json"
+			},
+			"AddIteamModel": {
+				"type": "sap.ui.model.json.JSONModel",
+				"uri": "utils/ItemChoice.json"
+			},
+			"Brands": {
+				"type": "sap.ui.model.json.JSONModel",
+				"uri": "utils/Brands.json"
+			},
+			"Naming": {
+				"type": "sap.ui.model.json.JSONModel",
+				"uri": "utils/Naming.json"
+			},
+			"Quality": {
+				"type": "sap.ui.model.json.JSONModel",
+				"uri": "utils/Quality.json"
+			},
+			"QualityGroup": {
+				"type": "sap.ui.model.json.JSONModel",
+				"uri": "utils/QualityGroup.json"
+			},
+			"BottleSize": {
+				"type": "sap.ui.model.json.JSONModel",
+				"uri": "utils/BottleSize.json"
+			},
+			"Materials": {
+				"type": "sap.ui.model.json.JSONModel",
+				"uri": "utils/Materials.json"
+			},
+			"filterModel": {
+				"type": "sap.ui.model.json.JSONModel"
+			},
+			"prodH": {
+				"dataSource": "mainService",
+				"preload": true
+			},
+			"contS": {
+				"dataSource": "contractService",
+				"preload": true
+			}
+		},
+		"resources": {
+			"css": [
+				{
+					"uri": "css/style.css"
+				},
+				{
+					"uri": "css/style4.css"
+				}
+			]
+		},
+		"routing": {
+			"config": {
+				"routerClass": "sap.m.routing.Router",
+				"viewType": "XML",
+				"viewPath": "demonewcassini.view",
+				"targetAggregation": "detailPages",
+				"clearTarget": false
+			},
+			"routes": [
+				{
+					"pattern": "",
+					"name": "appHome",
+					"target": "LandingPage"
+				},
+				{
+					"pattern": "CollectionGroupList",
+					"name": "CollectionGroupList",
+					"target": [
+						"SplitAppContainer",
+						"CollectionGroupList"
+					]
+				},
+				{
+					"pattern": "InformationPage/:groupId:",
+					"name": "InformationPage",
+					"target": [
+						"CollectionGroupList",
+						"InformationPage"
+					]
+				},
+				{
+					"pattern": "CollectionGroupFilteredList/:groupId:",
+					"name": "CollectionGroupFilteredList",
+					"target": [
+						"CollectionGroupList",
+						"CollectionGroupFilteredList"
+					]
+				},
+				{
+					"pattern": "CollectionGroupDetails/:groupId:",
+					"name": "CollectionGroupDetails",
+					"target": [
+						"CollectionGroupList",
+						"CollectionGroupDetails"
+					]
+				},
+				{
+					"pattern": "AddCollectionItem/:groupId:/Item/:itemId:",
+					"name": "AddCollectionItem",
+					"target": [
+						"CollectionGroupList",
+						"AddCollectionItem"
+					]
+				},
+				{
+					"pattern": "agreementdetails/{sPathdet}",
+					"name": "agreementdetails",
+					"target": "AgreementDetails"
+				},
+				{
+					"pattern": "createagreement",
+					"name": "createagreement",
+					"target": "CreateAgreement"
+				},
+				{
+					"pattern": "massupload",
+					"name": "massupload",
+					"target": "MassUpload"
+				},
+				{
+					"pattern": "report",
+					"name": "report",
+					"target": "Report"
+				},
+				{
+					"pattern": "editRule",
+					"name": "editRule",
+					"target": "editRule"
+				},
+				{
+					"pattern": "editSDRule",
+					"name": "editSDRule",
+					"target": "editSDRule"
+				}
+			],
+			"targets": {
+				"LandingPage": {
+					"viewLevel": 1,
+					"viewId": "idApp",
+					"controlId": "idAppControl",
+					"controlAggregation": "pages",
+					"viewName": "LandingPage"
+				},
+				"SplitAppContainer": {
+					"viewId": "idCollectionGroup",
+					"viewName": "CollectionGroup",
+					"viewLevel": 1,
+					"controlId": "idAppControl",
+					"controlAggregation": "pages"
+				},
+				"AgreementDetails": {
+					"viewType": "XML",
+					"viewName": "AgreementDetails",
+					"viewLevel": 1,
+					"controlId": "idAppControl",
+					"controlAggregation": "pages"
+				},
+				"CreateAgreement": {
+					"viewType": "XML",
+					"viewName": "CreateAgreement",
+					"viewLevel": 1,
+					"controlId": "idAppControl",
+					"controlAggregation": "pages"
+				},
+				"MassUpload": {
+					"viewType": "XML",
+					"viewName": "Massupload",
+					"viewLevel": 1,
+					"controlId": "idAppControl",
+					"controlAggregation": "pages"
+				},
+				"Report": {
+					"viewType": "XML",
+					"viewName": "BubbleReport",
+					"viewLevel": 1,
+					"controlId": "idAppControl",
+					"controlAggregation": "pages"
+				},
+				"editRule": {
+					"viewName": "Settlement",
+					"transition": "flip",
+					"viewLevel": 1,
+					"controlId": "idAppControl",
+					"controlAggregation": "pages"
+				},
+				"editSDRule": {
+					"viewName": "SDSettlement",
+					"transition": "flip",
+					"viewLevel": 1,
+					"controlId": "idAppControl",
+					"controlAggregation": "pages"
+				},
+				"CollectionGroupList": {
+					"parent": "SplitAppContainer",
+					"viewName": "CollectionGroupList",
+					"viewLevel": 2,
+					"viewId": "master",
+					"controlId": "idSplitContainerControl",
+					"controlAggregation": "masterPages"
+				},
+				"InformationPage": {
+					"parent": "SplitAppContainer",
+					"viewName": "InformationPage",
+					"controlId": "idSplitContainerControl",
+					"controlAggregation": "detailPages",
+					"viewLevel": 3
+				},
+				"CollectionGroupFilteredList": {
+					"parent": "SplitAppContainer",
+					"viewName": "CollectionGroupFilteredList",
+					"controlId": "idSplitContainerControl",
+					"controlAggregation": "detailPages",
+					"viewLevel": 3
+				},
+				"CollectionGroupDetails": {
+					"parent": "SplitAppContainer",
+					"viewName": "CollectionGroupDetails",
+					"controlId": "idSplitContainerControl",
+					"controlAggregation": "detailPages",
+					"viewLevel": 3
+				},
+				"AddCollectionItem": {
+					"parent": "SplitAppContainer",
+					"viewName": "AddCollectionItem",
+					"controlId": "idSplitContainerControl",
+					"controlAggregation": "detailPages",
+					"viewLevel": 3
+				}
+			}
+		}
+	},
+	"sap.platform.hcp": {
+		"uri": "webapp",
+		"_version": "1.1.0"
+	},
+	"sap.platform.abap": {
+		"uri": "/sap/bc/ui5_ui5/sap/zrebateapp/webapp",
+		"_version": "1.1.0"
+	}
+}

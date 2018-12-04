@@ -1,0 +1,98 @@
+<core:FragmentDefinition xmlns:mvc="sap.ui.core.mvc" xmlns:u="sap.ui.unified" xmlns:f="sap.ui.layout.form" xmlns="sap.m"
+	xmlns:core="sap.ui.core">
+	<f:Form id="FormFixedAmount" editable="false">
+		<f:layout>
+			<f:ResponsiveGridLayout labelSpanXL="12" labelSpanL="12" labelSpanM="12" labelSpanS="12" adjustLabelSpan="false" emptySpanXL="0"
+				emptySpanL="0" emptySpanM="0" emptySpanS="0" columnsXL="3" columnsL="3" columnsM="3" singleContainerFullSize="false"/>
+		</f:layout>
+		<f:toolbar>
+			<Toolbar>
+				<ToolbarSpacer/>
+				<Button id="faBtn" icon="sap-icon://add" press="addFixedAmount" visible= "{EditModel>/isEditable}"/>
+			</Toolbar>
+		</f:toolbar>
+		<f:formContainers>
+			<f:FormContainer title="Header Data">
+				<f:formElements>
+					<f:FormElement label="Flexible Group Number">
+						<f:fields>
+							<Input id="faFlexGrp" type="Text" value="{fixedAmtTab>/Prodno}" showSuggestion="true" showValueHelp="true"
+								valueHelpRequest="handleValueHelpFlex" editable = "{EditModel>/isEditable}"
+								suggestionItems="{ path: 'contS>/GetProdHierSet', filters : [ { path : 'Bname', operator : 'EQ', value1 : 'MOB17'} ] }" width="auto"
+								suggestionItemSelected="prodHItemSelected"
+								placeholder = "Enter Product Hierarchy set..">
+								<suggestionItems>
+									<core:Item text="{contS>Prodno}" key="{contS>Prodnodesc}"/>
+								</suggestionItems>
+							</Input>
+						</f:fields>
+					</f:FormElement>
+					<f:FormElement label="Nature">
+						<f:fields>
+							<Input id="fanature" type="Text" value="{fixedAmtTab>/Naturedesc}" 
+								   showSuggestion="true" 
+								   showValueHelp="true"
+								   valueHelpRequest="handleValueHelpNat" editable="{EditModel>/isEditable}"
+								suggestionItems="{path: 'contS>/GetNatureSet', filters : [ { path : 'Bname', operator : 'EQ', value1 : 'MOB17'} ]}" width="auto"
+								suggestionItemSelected="natureItemSelected"
+								placeholder = "Enter Nature..">
+								<suggestionItems>
+									<core:ListItem key="{contS>Natureid}" text="{contS>Naturedesc}"/>
+								</suggestionItems>
+							</Input>
+						</f:fields>
+					</f:FormElement>
+				</f:formElements>
+			</f:FormContainer>
+			<f:FormContainer title="Account">
+				<f:formElements>
+					<f:FormElement label="Topaz Account">
+						<f:fields>
+							<Input id="fatopacc" type="Text" value="{fixedAmtTab>/Chardesc}" showSuggestion="true" showValueHelp="true"
+								valueHelpRequest="handleValueHelpTop" 
+								suggestionItemSelected="topazItemSelected" 
+								editable="{EditModel>/isEditable}"
+								placeholder = "Enter Account.."
+								suggestionItems="{ path: 'contS>/GetCharAccSet', filters : [ { path : 'Bname', operator : 'EQ', value1 : 'MOB17'} ]}" width="auto">
+								<suggestionItems>
+									<core:ListItem key="{contS>Chardid}" text="{contS>Chardesc}"/>
+								</suggestionItems>
+							</Input>
+						</f:fields>
+					</f:FormElement>
+					<f:FormElement label="Settlement Method">
+						<f:fields>
+							<Input id="fasetmeth" type="Text" value="{fixedAmtTab>/Settlement}" showSuggestion="true" showValueHelp="true"
+								valueHelpRequest="handleValueHelpSM" editable="{EditModel>/isEditable}" suggestionItems="{NatureModel>/SETMETH}"
+								suggestionItemSelected="setItemSelected" width="auto"
+								placeholder = "Enter Settlement Method..">
+								<suggestionItems>
+									<core:ListItem key="{NatureModel>SETMETHK}" text="{NatureModel>SETDESC}"/>
+								</suggestionItems>
+							</Input>
+						</f:fields>
+					</f:FormElement>
+				</f:formElements>
+			</f:FormContainer>
+			<f:FormContainer title="Measure">
+				<f:formElements>
+					<f:FormElement label="Rate">
+						<f:fields>
+							<Input value="{fixedAmtTab>/Rate}" id="faRate" editable="{EditModel>/isEditable}"/>
+						</f:fields>
+					</f:FormElement>
+					<f:FormElement label="Estimated Volume">
+						<f:fields>
+							<Input value="{fixedAmtTab>/EstimatedVol}" id="faEstVol" editable="{EditModel>/isEditable}"/>
+						</f:fields>
+					</f:FormElement>
+					<f:FormElement label="Unit Of Measure">
+						<f:fields>
+							<Input value="{fixedAmtTab>/Uom}" id="faUOM" editable="{EditModel>/isEditable}"/>
+						</f:fields>
+					</f:FormElement>
+				</f:formElements>
+			</f:FormContainer>
+		</f:formContainers>
+	</f:Form>
+</core:FragmentDefinition>

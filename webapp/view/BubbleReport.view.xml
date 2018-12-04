@@ -1,0 +1,56 @@
+<mvc:View controllerName="demonewcassini.controller.BubbleReport" xmlns="sap.m" xmlns:c="sap.suite.ui.commons" xmlns:core="sap.ui.core"
+	xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns:viz="sap.viz.ui5.controls" xmlns:viz.data="sap.viz.ui5.data"
+	xmlns:viz.feeds="sap.viz.ui5.controls.common.feeds">
+	<Page class="reportPage" title="{i18n>title}">
+		<content>
+			<Panel class="panelStyle" expandable="true" expanded="false" headerText="{i18n>panelHeaderText}" width="auto">
+				<content>
+					<HBox class='settingsHBox'>
+						<!--                                                                                -->
+						<!-- Extending S/4HANA with HCP                                                     -->
+						<!-- * ANALYTIC Extension: Header - Slider to choose minimal rating                 -->
+						<!-- begin                                                                          -->
+						<VBox class='sapUiResponsiveMargin' visible="true" width="40%">
+							<Label text="{ parts: [ {path: 'i18n>ratingSliderLabel'}, {path: 'viewModel>/ratingThreshold'} ] }"/>
+							<Slider id="idRatingSlider" liveChange="onRatingSliderChange" max="450000" min="125000" step="75000" value="{viewModel>/ratingThreshold}" width="100%"/>
+							<Label text="Total Rebate Accrued"/>
+							<Text text="1,000,000"/>
+						</VBox>
+						<!-- end                                                                            -->
+					</HBox>
+				</content>
+			</Panel>
+			<c:ChartContainer id="chartContainer" class="chartContainer" autoAdjustHeight="true" contentChange="onContentChange" showFullScreen="true" showLegend="false"
+				showPersonalization="false">
+				<c:customIcons>
+					<core:Icon id="refreshIcon" press="handleRefresh" src="sap-icon://refresh"></core:Icon>
+				</c:customIcons>
+				<c:content>
+					<c:ChartContainerContent icon="sap-icon://favorite">
+						<c:content>
+							<viz:Popover id="idPopOverBarRating"></viz:Popover>
+							<viz:VizFrame id="idVizFrameBarRating" height="100%" uiConfig="{applicationSet:'fiori'}" vizType="bar" width="100%">
+								<viz:dataset>
+									<viz.data:FlattenedDataset data="{ReportModel>/RepCollect}">
+										<viz.data:dimensions>
+											<viz.data:DimensionDefinition name="Brand" value="{ReportModel>Brand}"/>
+										</viz.data:dimensions>
+										<viz.data:measures>
+											<viz.data:MeasureDefinition name="Rebate" value="{ReportModel>Rebate}"/>
+											<!--<viz.data:MeasureDefinition name="Cost" value="{ReportModel>Cost}"/>-->
+										</viz.data:measures>
+									</viz.data:FlattenedDataset>
+								</viz:dataset>
+								<viz:feeds>
+									<viz.feeds:FeedItem type="Measure" uid="valueAxis" values="Rebate"/>
+									<viz.feeds:FeedItem type="Dimension" uid="categoryAxis" values="Brand"/>
+								</viz:feeds>
+							</viz:VizFrame>
+						</c:content>
+					</c:ChartContainerContent>
+					<!-- end                                                                            -->
+				</c:content>
+			</c:ChartContainer>
+		</content>
+	</Page>
+</mvc:View>

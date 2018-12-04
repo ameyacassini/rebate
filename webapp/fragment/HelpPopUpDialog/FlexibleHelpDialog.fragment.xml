@@ -1,0 +1,6 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+	<SelectDialog title="Flexible Group" class="sapUiPopupWithPadding" items="{path: 'contS>/GetProdHierSet', filters : [ { path : 'Bname', operator : 'EQ', value1 : 'MOB17'} ]}" search="_handleValueHelpSearchFlex"
+		confirm="_handleValueHelpCloseFlex" cancel="_handleValueHelpCloseFlex">
+		<StandardListItem title="{contS>Prodnodesc}" description="{contS>Prodno}"/>
+	</SelectDialog>
+</core:FragmentDefinition>

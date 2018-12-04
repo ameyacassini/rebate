@@ -1,0 +1,162 @@
+{
+	"HeaderCollection": [
+		{
+		"CustomerID": "HT-1000",
+		"DocumentNumber": "DOC-1000",
+		"AgreementNumber": "AGR-1000",
+		"AgreementCopy" : "image/samplecontract.pdf",
+		"CustomerName": "Moet Hennessey",
+			"LineItems": {
+				"Country": "France",
+				"SalesOrg": "SalesOrg 1000",
+				"Currency": "EUR",
+				"ValidFrom":"01-01-2018",
+				"ValidTo":"31-12-2018",
+				"Status":"Released",
+				"PerSale":"true",
+				"FixedAmount":"true",
+				"LumpSum":"true",
+				"image":"image/agreement.png",
+				"customerimg" : "image/1.jpg",
+				"percentComp":70,
+				"displayValue":"70%",
+				"Language":"French",
+				"Email":"abc@lvmh.com"
+			},
+			"PerSale":{
+				"FlexibleGrpNo":"FGN 1000",
+				"Nature":"Test Nature 1000",
+				"TopazAcc":"Test Topaz 1000",
+				"SettleMent":"Test Settle 1000",
+				"Rate":"1000",
+				"UnitoFMesaure":"Test 1000",
+				"EstimatedSale":"Sale 1000"
+			},
+			"FixedAmount":{
+				"FlexibleGrpNo":"FGN 1000",
+				"Nature":"Test Nature 1000",
+				"TopazAcc":"Test Topaz 1000",
+				"SettleMent":"Test Settle 1000",
+				"Rate":"1000",
+				"UnitoFMesaure":"Test 1000",
+				"EstimatedVol":"1000"
+			},
+			"LumpSum":{
+				"FlexibleGrpNo":"FGN 1000",
+				"Nature":"Test Nature 1000",
+				"TopazAcc":"Test Topaz 1000",
+				"SettleMent":"Test Settle 1000",
+				"Rate":"1000",
+				"UnitoFMesaure":"Test 1000",
+				"EstimatedVol":"1000",
+				"PhasingType":"Test Phase 1000",
+				"LinearRule":"Test Linear 1000"
+			}
+	},	{
+		"CustomerID": "HT-1001",
+		"DocumentNumber": "DOC-1001",
+		"AgreementNumber": "AGR-1001",
+		"AgreementCopy" : "image/samplecontract.pdf",
+		"CustomerName": "Philips",
+			"LineItems": {
+				"Country": "USA",
+				"SalesOrg": "SalesOrg 1001",
+				"Currency": "DOL",
+				"ValidFrom":"01-01-2018",
+				"ValidTo":"31-12-2018",
+				"Status":"Released",
+				"PerSale":"true",
+				"FixedAmount":"true",
+				"LumpSum":"false",
+				"image":"image/agreement.png",
+				"customerimg" : "image/1.jpg",
+				"percentComp":100,
+				"displayValue":"100%",
+				"Language":"English",
+				"Email":"abc@philips.com"
+			},
+			"PerSale":{
+				"FlexibleGrpNo":"FGN 1001",
+				"Nature":"Test Nature 1001",
+				"TopazAcc":"Test Topaz 1001",
+				"SettleMent":"Test Settle 1001",
+				"Rate":"1001",
+				"UnitoFMesaure":"Test 1001",
+				"EstimatedSale":"Sale 1001"
+			},
+				"FixedAmount":{
+				"FlexibleGrpNo":"FGN 1001",
+				"Nature":"Test Nature 1001",
+				"TopazAcc":"Test Topaz 1001",
+				"SettleMent":"Test Settle 1001",
+				"Rate":"1001",
+				"UnitoFMesaure":"Test 1001",
+				"EstimatedVol":"1001"
+			},
+			"LumpSum":{
+				"FlexibleGrpNo":"FGN 1001",
+				"Nature":"Test Nature 1001",
+				"TopazAcc":"Test Topaz 1001",
+				"SettleMent":"Test Settle 1001",
+				"Rate":"1001",
+				"UnitoFMesaure":"Test 1001",
+				"EstimatedVol":"1001",
+				"PhasingType":"Test Phase 1001",
+				"LinearRule":"Test Linear 1001"
+			}
+	},
+	{
+		"CustomerID": "HT-1002",
+		"DocumentNumber": "DOC-1002",
+		"AgreementNumber": "AGR-1002",
+		"AgreementCopy" : "image/samplecontract.pdf",
+		"CustomerName": "Walmart",
+			"LineItems": {
+				"Country": "USA",
+				"SalesOrg": "SalesOrg 1002",
+				"Currency": "DOL",
+				"ValidFrom":"01-01-2018",
+				"ValidTo":"31-12-2018",
+				"Status":"Released",
+				"PerSale":"true",	
+				"FixedAmount":"false",
+				"LumpSum":"true",
+				"image":"image/agreement.png",
+				"customerimg" : "image/1.jpg",
+				"percentComp":90,
+				"displayValue":"90%",
+				"Language":"English",
+				"Email":"abc@walmart.com"
+			},
+			"PerSale":{
+				"FlexibleGrpNo":"FGN 1002",
+				"Nature":"Test Nature 1002",
+				"TopazAcc":"Test Topaz 1002",
+				"SettleMent":"Test Settle 1002",
+				"Rate":"1002",
+				"UnitoFMesaure":"Test 1002",
+				"EstimatedSale":"Sale 1002"
+			},
+				"FixedAmount":{
+				"FlexibleGrpNo":"FGN 1002",
+				"Nature":"Test Nature 1002",
+				"TopazAcc":"Test Topaz 1002",
+				"SettleMent":"Test Settle 1002",
+				"Rate":"1002",
+				"UnitoFMesaure":"Test 1002",
+				"EstimatedVol":"1002"
+			},
+			"LumpSum":{
+				"FlexibleGrpNo":"FGN 1002",
+				"Nature":"Test Nature 1002",
+				"TopazAcc":"Test Topaz 1002",
+				"SettleMent":"Test Settle 1002",
+				"Rate":"1002",
+				"UnitoFMesaure":"Test 1002",
+				"EstimatedVol":"1002",
+				"PhasingType":"Test Phase 1002",
+				"LinearRule":"Test Linear 1002"
+			}
+	}
+	]
+}

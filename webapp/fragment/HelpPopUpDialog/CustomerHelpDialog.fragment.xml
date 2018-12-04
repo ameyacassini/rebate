@@ -1,0 +1,6 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+	<SelectDialog title="Customer" class="sapUiPopupWithPadding" items="{ path: 'contS>/GetCustomerSet' , filters: [{ path: 'Bname', operator: 'EQ', value1: 'MOB17' }]}" search="_handleValueHelpSearchCust"
+		confirm="_handleValueHelpCloseCust" cancel="_handleValueHelpCloseCust">
+		<StandardListItem title="{contS>Custname}" description="{contS>Custid}" info="{contS>Salesorg}" infoState="Success"/>
+	</SelectDialog>
+</core:FragmentDefinition>

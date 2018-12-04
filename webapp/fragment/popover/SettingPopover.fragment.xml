@@ -1,0 +1,22 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core">
+	<ResponsivePopover
+		title="{Name}"
+		class="sapUiPopupWithPadding"
+		placement="Bottom" >
+		<beginButton>
+			<Button text="Action-A" press="onCloseSettingPopover" />
+		</beginButton>
+		<endButton>
+			<Button text="Action-B" press="onCloseSettingPopover" />
+		</endButton>
+		<content>
+			<Switch state="true" change="onLangChange" customTextOn="EN" customTextOff="FR">
+				<layoutData>
+					<FlexItemData growFactor="1" />
+				</layoutData>
+			</Switch>
+		</content>
+	</ResponsivePopover>
+</core:FragmentDefinition>

@@ -1,0 +1,114 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:unified="sap.ui.unified" xmlns:f="sap.ui.layout.form" xmlns:core="sap.ui.core"
+	xmlns:tnt="sap.tnt">
+	<Dialog id="helloDialog" title="Accruals Header" contentHeight="1800px" contentWidth="1800px">
+		<f:SimpleForm editable="true" layout="ResponsiveGridLayout" labelSpanXL="4" labelSpanL="4" labelSpanM="12" labelSpanS="12"
+			adjustLabelSpan="false" emptySpanXL="0" emptySpanL="0" emptySpanM="0" emptySpanS="0" columnsXL="2" columnsL="2" columnsM="2"
+			singleContainerFullSize="false">
+			<f:content>
+				<core:Title text=""/>
+				<Label text="Posting Period"/>
+				<Input type="Text" 
+					   id="postingPerd"
+					   placeholder="Enter Posting Period ..." 
+					   showSuggestion="true" suggestionItemSelected="suggestionItemSelected"
+					   suggestionItems="{AccModel>/AccrualCollection}">
+					<suggestionItems>
+						<core:Item text="{AccModel>PostPeriod}"/>
+					</suggestionItems>
+				</Input>
+				<core:Title text=""/>
+				<Label text="Document Date"/>
+				<DatePicker id="DP2" value="" valueFormat="yyyy-MM-dd" displayFormat="long" class="sapUiSmallMarginBottom"/>
+				<Label text="Accrual Posting Date"/>
+				<DatePicker id="DP3" value="" valueFormat="yyyy-MM-dd" displayFormat="long" class="sapUiSmallMarginBottom"/>
+			</f:content>
+		</f:SimpleForm>
+		<Table id="idAccrualTab" items="{ path: 'AccrualDatModel>/'}" updateFinished="onUpdateFinishedAcc">
+			<headerToolbar>
+				<Toolbar>
+					<Title text="Accruals" level="H2"/>
+					<ToolbarSpacer></ToolbarSpacer>
+					<Button icon="sap-icon://eraser" press="onDataExport" tooltip="Reverse Accruals"/>
+					<Button icon="sap-icon://save" text="Post" press="onPostAccrual" tooltip="Post Accruals"/>
+					<Button icon="sap-icon://download" press="onDataExport" tooltip="Download"/>
+					<Button icon="sap-icon://history" press="onPreviewHist" tooltip="Accrual Histroy"/>
+				</Toolbar>
+			</headerToolbar>
+			<columns>
+				<!--	<Column>
+					<Text text="PK"/>
+				</Column>-->
+				<Column  demandPopin="true">
+					<Text text="Account"/>
+					<footer>
+						<Label id="footerAccount" />
+					</footer>
+				</Column>
+				<Column>
+					<Text text="Customer"/>
+					<footer>
+						<Label id="footerCustomer" />
+					</footer>
+				</Column>
+				<Column>
+					<Text text="Amount"/>
+						<footer>
+						<Label id="footerAmount"/>
+					</footer>
+				</Column>
+				<Column>
+					<Text text="Material"/>
+				</Column>
+				<Column>
+					<Text text="Profit Center"/>
+				</Column>
+				<Column>
+					<Text text="Assignment"/>
+					<footer>
+						<Label id="footerAssign"/>
+					</footer>
+				</Column>
+				<Column>
+					<Text text="RefKey1"/>
+				</Column>
+				<Column>
+					<Text text="RefKey2"/>
+				</Column>
+			</columns>
+			<items>
+				<ColumnListItem>
+					<!--	<cells>
+						<Text text="{AccrualDatModel>PK}"/>
+					</cells>-->
+					<cells>
+						<Text text="{AccrualDatModel>Glaccount}"/>
+					</cells>
+					<cells>
+						<Text text="{AccrualDatModel>Customer}"/>
+					</cells>
+					<cells>
+						<Text text="{AccrualDatModel>Accruals}"/>
+					</cells>
+					<cells>
+						<ObjectIdentifier title="{AccrualDatModel>Material}" titleActive="true" tooltip="ID: {AccrualDatModel>Materialdesc}"/>
+					</cells>
+					<cells>
+						<Text text="{AccrualDatModel>Prctr}"/>
+					</cells>
+					<cells>
+						<ObjectIdentifier title="{AccrualDatModel>Contractno}" titleActive="true" tooltip="ID: {AccrualDatModel>Contractno}"/>
+					</cells>
+					<cells>
+						<ObjectIdentifier title="{AccrualDatModel>Prodno}" titleActive="true" tooltip="ID: {AccrualDatModel>Prodh}"/>
+					</cells>
+					<cells>
+						<Text text="{AccrualDatModel>Description}"/>
+					</cells>
+				</ColumnListItem>
+			</items>
+		</Table>
+		<beginButton>
+			<Button press="onCancelACCDlg" text="OK"/>
+		</beginButton>
+	</Dialog>
+</core:FragmentDefinition>

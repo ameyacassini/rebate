@@ -1,0 +1,59 @@
+{
+	"CustomerCollection": [
+		{
+		"CustomerID": "HT-1000",
+		"CustomerName": "ABC",
+		"Country": "Germany",
+		"SalesArea":"Test 1000",
+		"AgreementNumber":"AGR100",
+		"StartDate":"10-10-2018",
+		"EndDate":"10-10-2019",
+		"Currency":"$",
+		"PhasingT":"ABC",
+		"LinearRule":"Rule 123"
+	}, {
+		"CustomerID": "HT-1001",
+		"CustomerName": "XYZ",
+		"Country": "India",
+		"SalesArea":"Test 1001",
+		"StartDate":"10-10-2018",
+		"EndDate":"10-10-2019",
+		"AgreementNumber":"AGR110",
+		"Currency":"$",
+		"PhasingT":"ABC",
+		"LinearRule":"Rule 111"
+	}, {
+		"CustomerID": "HT-1002",
+		"CustomerName": "PQR",
+		"Country": "Germany",
+		"SalesArea":"Test 1002",
+		"AgreementNumber":"AGR101",
+		"StartDate":"10-10-2018",
+		"EndDate":"10-10-2019",
+		"Currency":"$",
+		"PhasingT":"ABC",
+		"LinearRule":"Rule 124"
+	}, {
+		"CustomerID": "HT-1003",
+		"CustomerName": "ABC",
+		"Country": "Germany",
+		"SalesArea":"Test 1003",
+		"AgreementNumber":"AGR103",
+		"StartDate":"10-10-2018",
+		"EndDate":"10-10-2019",
+		"Currency":"$",
+		"PhasingT":"ABC"
+	}, {
+		"CustomerID": "HT-1004",
+		"CustomerName": "ABC",
+		"Country": "Germany",
+		"SalesArea":"Test 1004",
+		"AgreementNumber":"AGR106",
+		"StartDate":"10-10-2018",
+		"EndDate":"10-10-2019",
+		"Currency":"$",
+		"PhasingT":"ABC",
+		"LinearRule":"Rule 143"
+	}
+	]
+}

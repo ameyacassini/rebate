@@ -1,0 +1,146 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:uxap="sap.uxap"
+	xmlns:app="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" controllerName="demonewcassini.controller.AddCollectionItem"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<!--<Page id="AddCollection" title="{i18n>addCollectionItem}">-->
+	<uxap:ObjectPageLayout id="CollectionGroupDetails">
+		<uxap:headerTitle>
+			<uxap:ObjectPageHeader headerDesign="Light" objectTitle="{i18n>collectionGroup}">
+				<uxap:actions>
+					<uxap:ObjectPageHeaderActionButton icon="sap-icon://save" text="{i18n>save}" press="onSave" hideText="false"/>
+					<uxap:ObjectPageHeaderActionButton icon="sap-icon://decline" text="{i18n>cancel}" press="OnCancel" hideText="false"/>
+					<uxap:ObjectPageHeaderActionButton id="btn_home" icon="sap-icon://home" hideText="false" text="{i18n>goHome}" press="OnNavigateHome"/>
+				</uxap:actions>
+			</uxap:ObjectPageHeader>
+		</uxap:headerTitle>
+		<uxap:headerContent>
+			<ObjectStatus title="" text="{description}"/>
+			<ObjectStatus title="{i18n>documentDate}" text="{DateModel>/currentDate}  {DateModel>/currentTime}"/>
+			<ObjectStatus title="{i18n>createdBy}" text="MOB17"/>
+		</uxap:headerContent>
+		<uxap:sections>
+			<uxap:ObjectPageSection title="{i18n>collectionInformation}">
+				<uxap:subSections>
+					<uxap:ObjectPageSubSection title=" ">
+						<uxap:blocks>
+							<IconTabBar id="idIconTabBar" headerMode="Inline" upperCase="true" select="onTabSelect">
+								<items>
+										<IconTabFilter key="Allocation" text="{i18n>allocationLevel}">
+											<Label text="{i18n>allocationquestion}" design="Bold"/>
+											<List id="Allocationlist"  mode="MultiSelect" class="sapUiNoContentPadding"
+												items="{ path: 'AddIteamModel>/ListItems' }" selectionChange="onAllocationChange">
+												<StandardListItem title="{AddIteamModel>ddtext}"/>
+											</List>
+										</IconTabFilter>
+									<IconTabFilter key="1" app:tabId="1" text="{i18n>hie1}" count="{collectionItemMode>/NamingSelectionCount}"
+										visible="{collectionItemMode>/Category}">
+										<Toolbar>
+											<SearchField liveChange="filterGlobally" width="100%"/>
+										</Toolbar>
+										<ScrollContainer height="100%" width="100%" vertical="true">
+											<List id="Hie1list" noDataText="{i18n>NoCategoryText}" mode="{collectionItemMode>/ListSelection}" class="sapUiNoContentPadding"
+												items="{ path: 'prodH>/PROD_HIERARCHYSet', filters : [ { path : 'Stufe', operator : 'EQ', value1 : '1'}, { path : 'Spras', operator : 'EQ', value1 : 'EN'} ] }"
+												growing="true" growingThreshold="50" growingScrollToLoad="true" selectionChange="onSelectHierarchyItem">
+												<StandardListItem app:level="1" app:id="{prodH>Prodh1}" title="{prodH>Vtext1}"/>
+											</List>
+										</ScrollContainer>
+									</IconTabFilter>
+									<IconTabFilter key="Brands" app:tabId="2" text="{i18n>hie2}" count="{collectionItemMode>/BrandsSelectionCount}"
+										visible="{collectionItemMode>/Type}">
+										<Toolbar>
+											<SearchField liveChange="filterGlobally" width="100%"/>
+										</Toolbar>
+									<!--	<List noDataText="{i18n>brandEmptyTable}" id="Hie2list" mode="{collectionItemMode>/ListSelection}" class="sapUiNoContentPadding"
+											items="{ path: 'prodH>/PROD_HIERARCHYSet', filters : [ { path : 'Stufe', operator : 'EQ', value1 : '2'}, { path : 'Spras', operator : 'EQ', value1 : 'EN'} ] }"
+											growing="true" growingThreshold="50" growingScrollToLoad="true" selectionChange="onSelectHierarchyItem">
+											<StandardListItem app:level="2" app:id="{prodH>Prodh2}" title="{prodH>Vtext2}"/>
+										</List>-->
+										<List noDataText="{i18n>typeEmptyTable}" id="Hie2list" mode="{collectionItemMode>/ListSelection}" class="sapUiNoContentPadding"
+											items="{ path: 'hierarchy2>/results'}"
+											growing="true" growingThreshold="50" growingScrollToLoad="true" selectionChange="onSelectHierarchyItem">
+											<StandardListItem app:level="2" app:id="{hierarchy2>Prodh2}" title="{hierarchy2>Vtext2}"/>
+										</List>
+									</IconTabFilter>
+									<IconTabFilter key="QualityGroup" app:tabId="3" text="{i18n>hie3}" count="{collectionItemMode>/QualityGroupSelectionCount}"
+										visible="{collectionItemMode>/Brand}">
+										<Toolbar>
+											<SearchField liveChange="filterGlobally" width="100%"/>
+										</Toolbar>
+									<!--	<List noDataText="{i18n>qualityGroupEmptyTable}t" id="Hie3list" mode="{collectionItemMode>/ListSelection}" class="sapUiNoContentPadding"
+											items="{ path: 'prodH>/PROD_HIERARCHYSet', filters : [ { path : 'Stufe', operator : 'EQ', value1 : '3'}, { path : 'Spras', operator : 'EQ', value1 : 'EN'} ] }"
+											growing="true" growingThreshold="50" growingScrollToLoad="true">
+											<StandardListItem app:level="3" app:id="{prodH>Prodh3}" title="{prodH>Vtext3}"/>
+										</List>-->
+										<List noDataText="{i18n>brandEmptyTable}" id="Hie3list" mode="{collectionItemMode>/ListSelection}" class="sapUiNoContentPadding"
+											items="{ path: 'hierarchy3>/results'}" selectionChange="onSelectHierarchyItem"
+											growing="true" growingThreshold="50" growingScrollToLoad="true">
+											<StandardListItem app:level="3" app:id="{hierarchy3>Prodh3}" title="{hierarchy3>Vtext3}"/>
+										</List>
+									</IconTabFilter>
+										<IconTabFilter key="QualityGroup" app:tabId="4" text="{i18n>hie4}" count="{collectionItemMode>/QualityGroupSelectionCount}"
+										visible="{collectionItemMode>/Model}">
+										<Toolbar>
+											<SearchField liveChange="filterGlobally" width="100%"/>
+										</Toolbar>
+										<!--<List noDataText="{i18n>qualityGroupEmptyTable}t" id="Hie4list" mode="{collectionItemMode>/ListSelection}" class="sapUiNoContentPadding"
+											items="{ path: 'prodH>/PROD_HIERARCHYSet', filters : [ { path : 'Stufe', operator : 'EQ', value1 : '4'}, { path : 'Spras', operator : 'EQ', value1 : 'EN'} ] }"
+											growing="true" growingThreshold="50" growingScrollToLoad="true">
+											<StandardListItem app:level="4" app:id="{prodH>Prodh4}" title="{prodH>Vtext4}"/>
+										</List>-->
+										<List noDataText="{i18n>modelEmptyTable}" id="Hie4list" mode="{collectionItemMode>/ListSelection}" class="sapUiNoContentPadding"
+											items="{ path: 'hierarchy4>/results'}"
+											growing="true" growingThreshold="50" growingScrollToLoad="true" selectionChange="onSelectHierarchyItem">
+											<StandardListItem app:level="4" app:id="{hierarchy4>Prodh4}" title="{hierarchy4>Vtext4}"/>
+										</List>
+									</IconTabFilter>
+									<IconTabFilter key="MaterialNumber" app:tabId="5" text="{i18n>material}" visible="{collectionItemMode>/MaterialNumber}">
+										<Label text="Materail Number"/>
+										<Input id="matInput" suggest="handleSuggestNum" type="Text" textFormatMode="ValueKey" placeholder="Enter Product ..." showSuggestion="true"
+											showTableSuggestionValueHelp="false" suggestionItems="{prodH>/GtMatinfoSet}" suggestionItemSelected="suggestionItemSelected">
+											<suggestionItems>
+												<core:ListItem text="{prodH>Matnr}" additionalText="{prodH>Maktx}"/>
+											</suggestionItems>
+										</Input>
+										<Label text="Materail Description"/>
+										<Input type="Text" placeholder="Enter Material Desc..." suggest="handleSuggestDesc" showSuggestion="true" id="matDescInput"
+											suggestionItems="{prodH>/GtMatinfoSet}">
+											<suggestionItems>
+												<core:Item text="{prodH>Maktx}"/>
+											</suggestionItems>
+										</Input>
+										<Table id="tbl_Material" width="auto" enableBusyIndicator="true" growing="true" items="{ path: 'MaterialModel>/ListItems'}">
+											<columns>
+												<Column id="CMaterial" minScreenWidth="Tablet">
+													<Text text="{i18n>materialNumber}"/>
+												</Column>
+												<Column id="CMaterialName" demandPopin="true">
+													<Text text="{i18n>materialName}"/>
+												</Column>
+												<Column id="CDeleteAction">
+													<Text text=""/>
+												</Column>
+											</columns>
+											<items>
+												<ColumnListItem>
+													<cells>
+														<Input editable="{MaterialModel>editable}" value="{MaterialModel>MaterialNumber}"/>
+														<Input editable="{MaterialModel>editable}" value="{MaterialModel>MaterialDescription}"/>
+														<HBox>
+															<Button id="btn_Matdelete" icon="sap-icon://delete" press="handleMaterialDelete" visible="{MaterialModel>deletable}"/>
+															<Button id="btn_MatSearch" icon="sap-icon://search" app:MaterialType="{MaterialModel>MaterialType}" press="handleAddMaterial"
+																visible="{MaterialModel>editable}"/>
+														</HBox>
+													</cells>
+												</ColumnListItem>
+											</items>
+										</Table>
+									</IconTabFilter>
+								</items>
+							</IconTabBar>
+						</uxap:blocks>
+					</uxap:ObjectPageSubSection>
+				</uxap:subSections>
+			</uxap:ObjectPageSection>
+		</uxap:sections>
+	</uxap:ObjectPageLayout>
+	<!--</Page>-->
+</mvc:View>

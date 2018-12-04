@@ -1,0 +1,102 @@
+/*html,
+body {
+  background-color: #010c0d;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+body {
+  padding: 50px 0;
+}
+
+.axis {
+  background-color: rgba(255, 255, 255, 0.2);
+  position: absolute;
+  z-index: 100;
+}
+
+.planet {
+  background-size: cover;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+}
+
+#background {
+  background-image: url("http://www.alienresearchcorp.com/space/hd-wallpapers/amazing/img/l/moment-in-space-cvi.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  bottom: -20%;
+  left: -10%;
+  position: absolute;
+  right: -10%;
+  top: -20%;
+}
+
+#x-axis {
+  bottom: -50%;
+  left: 50%;
+  top: -50%;
+  width: 1px;
+}
+
+#y-axis {
+  left: 0;
+  top: 50%;
+  right: 0;
+  height: 1px;
+}
+
+#planet-1 {
+  margin: -75px 0 0 -75px;
+  height: 150px;
+  width: 150px;
+  background-image: url("/webapp/image/veuve-clicquot2.png");
+  z-index: 20;
+}
+
+#planet-2 {
+  margin: -100px 0 0 -100px;
+  height: 200px;
+  width: 200px;
+  background-image: url("/webapp/image/veuve-clicquot1.png");
+  z-index: 10;
+}
+*/
+
+body {
+  margin: 0;
+}
+#wrapper_header {
+  height: 690px;
+}
+#header {
+  opacity: 0.5;
+  overflow: hidden;
+  width: 100%;
+  height: 690px;
+  position: absolute;
+  /*background-image: url(https://codyhouse.co/demo/parallax-hero-image/img/cd-img-1.jpg);
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
+}
+
+#element1,
+#element2 {
+  position: absolute;
+  left: -5%;
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+
+@media screen and (max-width: 1280px) {
+}

@@ -1,0 +1,14 @@
+<mvc:View 
+	xmlns:html="http://www.w3.org/1999/xhtml" 
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc" 
+	xmlns:l="sap.ui.layout" 
+	xmlns:uxap="sap.uxap" 
+	xmlns:core="sap.ui.core" 
+	xmlns:tnt="sap.tnt">
+	<List>
+		<items>
+			<StandardListItem title="To Master2" type="Navigation" press="onPressGoToMaster"/>
+		</items>
+	</List>
+</mvc:View>

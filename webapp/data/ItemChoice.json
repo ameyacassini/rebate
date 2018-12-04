@@ -1,0 +1,35 @@
+{
+	"ListItems":[
+						{
+			"ddtext":"Material Number",
+			"ddkey":"material",
+			"ddvisible":true
+		},
+								{
+			"ddtext":"Naming",
+			"ddkey":"naming",
+			"ddvisible":true
+		},
+								{
+			"ddtext":"Brand",
+			"ddkey":"brand",
+			"ddvisible":true
+		},
+								{
+			"ddtext":"Quality Group",
+			"ddkey":"qualitygrp",
+			"ddvisible":true
+		},
+								{
+			"ddtext":"Quality",
+			"ddkey":"quality",
+			"ddvisible":true
+		},
+										{
+			"ddtext":"Bottle Size",
+			"ddkey":"bottleSize",
+			"ddvisible":true
+		}
+		]
+	
+}

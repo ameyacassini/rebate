@@ -1,0 +1,39 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc"
+		  xmlns:forms="sap.ui.layout.form"
+		  xmlns="sap.m"
+		  xmlns:core="sap.ui.core"
+		  >
+
+	<forms:SimpleForm>
+
+		<core:Title text="General"/>
+		<Label text="Flexible Group Number"/>
+		<Input value="" id="lsFlexibleGrp" />
+
+		<Label text="Nature"/>
+		<Input value="" id="lsNature" />
+		
+		<Label text="Phasing Type"/>
+		<Input value="" id="lsPhasingType" />
+
+		<core:Title text="Account"/>
+		<Label text="Topaz Account"/>
+		<Input value="" id="lsTopazAcc" />
+
+		<Label text="Settlement Method"/>
+		<Input value="" id="lsSettlementMeth" />
+		
+		<core:Title text="Measure"/>
+		<Label text="Rate"/>
+		<Input value="" id="lsRate" />
+
+		<Label text="Unit of Measure"/>
+		<Input value="" id="lsUoM" />
+
+		<Label text="Linear Rule"/>
+		<Input value="" />
+
+
+	</forms:SimpleForm>
+
+</mvc:View>

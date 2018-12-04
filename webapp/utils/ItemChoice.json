@@ -1,0 +1,30 @@
+{
+	"ListItems":[
+						{
+			"ddtext":"Material Number",
+			"ddkey":"material",
+			"ddvisible":true
+		},
+								{
+			"ddtext":"Category",
+			"ddkey":"H1",
+			"ddvisible":true
+		},
+								{
+			"ddtext":"Type",
+			"ddkey":"H2",
+			"ddvisible":true
+		},
+		{
+			"ddtext":"Brand",
+			"ddkey":"H3",
+			"ddvisible":true
+		},
+		{
+			"ddtext":"Model",
+			"ddkey":"H4",
+			"ddvisible":true
+		}
+		]
+	
+}

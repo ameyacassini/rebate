@@ -1,0 +1,100 @@
+<core:FragmentDefinition xmlns:mvc="sap.ui.core.mvc" xmlns:u="sap.ui.unified" xmlns:f="sap.ui.layout.form" xmlns="sap.m"
+	xmlns:core="sap.ui.core">
+	<f:Form id="FormLumpSum" editable="false">
+		<f:layout>
+			<f:ResponsiveGridLayout labelSpanXL="12" labelSpanL="12" labelSpanM="12" labelSpanS="12" adjustLabelSpan="false" emptySpanXL="0"
+				emptySpanL="0" emptySpanM="0" emptySpanS="0" columnsXL="3" columnsL="3" columnsM="3" singleContainerFullSize="false"/>
+		</f:layout>
+		<f:toolbar>
+			<Toolbar>
+				<ToolbarSpacer/>
+				<Button id= "lsBtn" icon="sap-icon://add" press="addLumpSum"/>
+			</Toolbar>
+		</f:toolbar>
+		<f:formContainers>
+			<f:FormContainer title="Header Data">
+				<f:formElements>
+					<f:FormElement label="Product Hierarchy">
+						<f:fields>
+							<Input id="lsFlexGrp" type="Text" value="" placeholder="Enter Product Hierarchy ..." showSuggestion="true" showValueHelp="true"
+								valueHelpRequest="handleValueHelpFlex" 
+								suggestionItems="{ path: 'contS>/GetProdHierSet', filters : [ { path : 'Bname', operator : 'EQ', value1 : 'MOB17'} ] }" 
+								width="auto"
+								suggestionItemSelected="prodHItemSelected">
+								<suggestionItems>
+									<core:Item text="{contS>Prodno}" key="{contS>Prodnodesc}"/>
+								</suggestionItems>
+							</Input>
+						</f:fields>
+					</f:FormElement>
+					<f:FormElement label="Nature">
+						<f:fields>
+							<Input id="lsnature" type="Text" value="" placeholder="Enter Nature Group ..." showSuggestion="true" showValueHelp="true"
+								valueHelpRequest="handleValueHelpNat" 
+								suggestionItems="{path: 'contS>/GetNatureSet', filters : [ { path : 'Bname', operator : 'EQ', value1 : 'MOB17'} ]}" 
+								width="auto"
+								suggestionItemSelected="natureItemSelected">
+								<suggestionItems>
+									<core:ListItem key="{contS>Natureid}" text="{contS>Naturedesc}"/>
+								</suggestionItems>
+							</Input>
+						</f:fields>
+					</f:FormElement >
+						<f:FormElement label="Phasing Type" visible="false">
+						<f:fields>
+							<Input value="{FixedAmount>/PhasingType}" id="lsPhasingType" editable="false"/>
+						</f:fields>
+					</f:FormElement>
+				</f:formElements>
+			</f:FormContainer>
+			<f:FormContainer title="Account">
+				<f:formElements>
+					<f:FormElement label="Topaz Account">
+						<f:fields>
+							<Input id="lstopacc" type="Text" value="" placeholder="Enter Account ..." showSuggestion="true" showValueHelp="true"
+								valueHelpRequest="handleValueHelpTop" 
+								suggestionItemSelected="topazItemSelected" 
+								suggestionItems="{ path: 'contS>/GetCharAccSet', filters : [ { path : 'Bname', operator : 'EQ', value1 : 'MOB17'} ]}"
+								width="auto">
+								<suggestionItems>
+									<core:ListItem key="{contS>Chardid}" text="{contS>Chardesc}"/>
+								</suggestionItems>
+							</Input>
+						</f:fields>
+					</f:FormElement>
+					<f:FormElement label="Settlement Method">
+						<f:fields>
+							<Input id="lssetmeth" type="Text" value="" placeholder="Enter Settle Method ..." showSuggestion="true" showValueHelp="true"
+								valueHelpRequest="handleValueHelpSM"  suggestionItems="{NatureModel>/SETMETH}"
+								suggestionItemSelected="setItemSelected"
+								width="auto">
+								<suggestionItems>
+									<core:ListItem key="{NatureModel>SETMETHK}" text="{NatureModel>SETDESC}"/>
+								</suggestionItems>
+							</Input>
+						</f:fields>
+					</f:FormElement>
+				</f:formElements>
+			</f:FormContainer>
+			<f:FormContainer title="Measure">
+				<f:formElements>
+					<f:FormElement label="Rate">
+						<f:fields>
+							<Input value="" id="lsRate"/>
+						</f:fields>
+					</f:FormElement>
+					<f:FormElement label="Unit Of Measure">
+						<f:fields>
+								<Input value="" id="lsUOM"/>
+						</f:fields>
+					</f:FormElement>
+						<f:FormElement label="Linear Rule" visible="false">
+						<f:fields>
+								<Input value="{FixedAmount>/LinearRule}" id="lsLineaRule"/>
+						</f:fields>
+					</f:FormElement>
+				</f:formElements>
+			</f:FormContainer>
+		</f:formContainers>
+	</f:Form>
+</core:FragmentDefinition>

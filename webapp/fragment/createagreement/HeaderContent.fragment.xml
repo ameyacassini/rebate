@@ -1,0 +1,109 @@
+<core:FragmentDefinition
+    xmlns:mvc="sap.ui.core.mvc" 
+    xmlns:u="sap.ui.unified" 
+    xmlns:f="sap.ui.layout.form" 
+    xmlns="sap.m" 
+    xmlns:core="sap.ui.core">
+	
+	<f:Form id="FormHeaderContent"
+			editable="false">
+			<f:layout>
+				<f:ResponsiveGridLayout
+					labelSpanXL="12"
+					labelSpanL="12"
+					labelSpanM="12"
+					labelSpanS="12"
+					adjustLabelSpan="false"
+					emptySpanXL="0"
+					emptySpanL="0"
+					emptySpanM="0"
+					emptySpanS="0"
+					columnsXL="3"
+					columnsL="3"
+					columnsM="3"
+					singleContainerFullSize="false" />
+			</f:layout>
+			<f:formContainers>
+				<f:FormContainer title="Header Data">
+					<f:formElements>
+						<f:FormElement label="Customer">
+							<f:fields>
+								<Input id="customerInput" type="Text" placeholder="Enter Customer ..."
+									showSuggestion="true" showValueHelp="true" valueHelpRequest="handleValueHelpCust" 
+									suggestionItemSelected="customerItemSelected"
+									required = "true"
+									suggestionItems="{ path: 'contS>/GetCustomerSet' , filters: [{ path: 'Bname', operator: 'EQ', value1: 'MOB17' }]}" width="auto">
+									<suggestionItems>
+										<!--<core:Item text="{contS>Custname}" key="{contS>Custid}"/>-->
+										<core:ListItem text="{contS>Custname}" additionalText="{contS>Custid}"/>
+									</suggestionItems>
+								</Input>
+							</f:fields>
+						</f:FormElement>
+						<f:FormElement label="Valid From">
+							<f:fields>
+								<DatePicker required="true" id="DP2" value="2018-01-01" valueFormat="yyyy-MM-dd" 
+									displayFormat="long"
+									/>
+							</f:fields>
+						</f:FormElement>
+						<f:FormElement label="Valid To">
+							<f:fields>
+								<DatePicker required="true" id="DP3" value="2018-12-31"  valueFormat="yyyy-MM-dd" 
+									displayFormat="long" 
+									change="checkDate"/>
+							</f:fields>
+						</f:FormElement>
+					</f:formElements>
+				</f:FormContainer>
+				<f:FormContainer title="Customer Region">
+					<f:formElements>
+						<f:FormElement label="Country">
+							<f:fields>
+								<Input id="hdCountry" value="" editable="false"/>
+							</f:fields>
+						</f:FormElement>
+						<f:FormElement label="Currency">
+							<f:fields>
+								<Input id="hdCurrency" value="" editable="false"/>
+							</f:fields>
+						</f:FormElement>
+					</f:formElements>
+				</f:FormContainer>
+					<f:FormContainer title="DiV">
+					<f:formElements>
+							<f:FormElement label="Sales Organization">
+							<f:fields>
+								<Input id="hdSalesOrg"  value="" editable="false" width="120px"/>
+							</f:fields>
+						</f:FormElement>
+							<f:FormElement label="Distribution">
+							<f:fields>
+								<Input id="hdDchannel"  value="" editable="false" width="120px"/>
+							</f:fields>
+						</f:FormElement>
+						<f:FormElement label="Division">
+							<f:fields>
+								<Input id="hdDivision"  value="" editable="false" width="120px"/>
+							</f:fields>
+						</f:FormElement>
+					
+					</f:formElements>
+				</f:FormContainer>
+				<!--<f:FormContainer title="Upload Contract">
+					<f:formElements>
+						<f:FormElement label="Select File">
+							<f:fields>
+								<u:FileUploader id="fileUploader" width="100%" name="myFileUpload" uploadComplete="onInnerDummy"/>
+							</f:fields>
+						</f:FormElement>
+						<f:FormElement>
+							<f:fields>
+								<Button text="Upload" press="handleUploadPress" width="100px"/>
+							</f:fields>
+						</f:FormElement>
+					</f:formElements>
+				</f:FormContainer>-->
+			</f:formContainers>
+		</f:Form>
+</core:FragmentDefinition>

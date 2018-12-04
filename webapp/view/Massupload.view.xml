@@ -1,0 +1,74 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:u="sap.ui.unified" xmlns:l="sap.ui.layout.form"
+	controllerName="demonewcassini.controller.MassUpload" xmlns:uxap="sap.uxap" xmlns:tnt="sap.tnt" xmlns:html="http://www.w3.org/1999/xhtml">
+	<VBox>
+		<uxap:ObjectPageLayout id="ObjectPageLayout" enableLazyLoading="true">
+			<uxap:headerTitle>
+			<uxap:ObjectPageHeader objectTitle="{i18n>massUpload}" showPlaceholder="true">
+				<uxap:actions>
+					<uxap:ObjectPageHeaderActionButton type="Transparent" id="idSave" text="{i18n>save}" press="onSavePress" hideText="false" hideIcon="true" />
+					<uxap:ObjectPageHeaderActionButton type="Transparent" text="{i18n>delete}" hideText="false" hideIcon="true"/>
+					<uxap:ObjectPageHeaderActionButton type="Transparent" text="{i18n>copyExcel}" press="onCopyExcel" hideText="false" hideIcon="true"/>
+					<uxap:ObjectPageHeaderActionButton type="Transparent" text="{i18n>download}" hideText="false" hideIcon="true"/>
+					<uxap:ObjectPageHeaderActionButton  type="Transparent" text="{i18n>share}"/>
+				</uxap:actions>
+			</uxap:ObjectPageHeader>
+		</uxap:headerTitle>
+		</uxap:ObjectPageLayout>
+		<l:SimpleForm editable="true">
+			<l:content>
+				<Label text="{i18n>fileName}"></Label>
+				<VBox>
+					<u:FileUploader id="idfileUploader" width="50%" sameFilenameAllowed="false" placeholder="{i18n>chooseFile}" style="Emphasized"></u:FileUploader>
+					<Button text="{i18n>upload}" press="onUpload"></Button>
+				</VBox>
+			</l:content>
+		</l:SimpleForm>
+		<Table id="idTable" items="{MassuploadModel>/CustomerCollection}" visible="false">
+			<OverflowToolbar>
+				<Title text="Title Bar Here"/>
+				<ToolbarSpacer/>
+				<SearchField width="12rem"/>
+				<SegmentedButton>
+					<items>
+						<SegmentedButtonItem icon="sap-icon://table-view"/>
+						<SegmentedButtonItem icon="sap-icon://bar-chart"/>
+					</items>
+				</SegmentedButton>
+				<Button icon="sap-icon://group-2" type="Transparent"/>
+				<Button icon="sap-icon://action-settings" type="Transparent"/>
+			</OverflowToolbar>
+			<items>
+				<ColumnListItem>
+					<cells>
+						<Link id="idAgreement" text="{MassuploadModel>AgreementNumber}"></Link>
+						<Text text="{MassuploadModel>CustomerID}"></Text>
+						<Text text="{MassuploadModel>CustomerName}"></Text>
+						<Text text="{MassuploadModel>SalesArea}"></Text>
+						<Text text="{MassuploadModel>StartDate}"></Text>
+						<Text text="{MassuploadModel>EndDate}"></Text>
+					</cells>
+				</ColumnListItem>
+			</items>
+			<columns>
+				<Column>
+					<Text id="idAgrm" text="{i18n>agreementNumber}"></Text>
+				</Column>
+				<Column>
+					<Text text="{i18n>customerID}"></Text>
+				</Column>
+				<Column>
+					<Text text="{i18n>customerName}"></Text>
+				</Column>
+				<Column>
+					<Text text="{i18n>salesOrganization}"></Text>
+				</Column>
+				<Column>
+					<Text text="{i18n>validFrom}"></Text>
+				</Column>
+				<Column>
+					<Text text="{i18n>validTo}"></Text>
+				</Column>
+			</columns>
+		</Table>
+	</VBox>
+</core:View>

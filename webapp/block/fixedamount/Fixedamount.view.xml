@@ -1,0 +1,36 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc"
+		  xmlns:forms="sap.ui.layout.form"
+		  xmlns="sap.m"
+		  xmlns:core="sap.ui.core"
+		  >
+
+	<forms:SimpleForm>
+
+		<core:Title text="General"/>
+		<Label text="Flexible Group Number"/>
+		<Input value="{FixedAmount/FlexibleGrpNo}" id="fdFlexibleGrp" editable="false"/>
+
+		<Label text="Nature"/>
+		<Input value="{FixedAmount/Nature}" id="fdNature" editable="false"/>
+
+		<core:Title text="Account"/>
+		<Label text="Topaz Account"/>
+		<Input value="{FixedAmount/TopazAcc}" id="fdTopazAcc" editable="false"/>
+
+		<Label text="Settlement Method"/>
+		<Input value="{FixedAmount/SettleMent}" id="fdSttlement" editable="false"/>
+		
+		<core:Title text="Measure"/>
+		<Label text="Rate"/>
+		<Input value="{FixedAmount/Rate}" id="idRate" editable="false"/>
+
+		<Label text="Unit of Measure"/>
+		<Input value="{FixedAmount/UnitoFMesaure}" id="fdUoM" editable="false"/>
+
+		<Label text="Estimated Sale"/>
+		<Input value="{FixedAmount/EstimatedVol}" id="fdEstimatedSale" editable="false"/>
+
+
+	</forms:SimpleForm>
+
+</mvc:View>

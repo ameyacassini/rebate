@@ -1,0 +1,92 @@
+<mvc:View controllerName="demonewcassini.controller.editRule" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:core="sap.ui.core"
+	xmlns:l="sap.ui.layout" xmlns:f="sap.ui.layout.form">
+	<Page id="page" navButtonPress="onNavBack" showNavButton="true" title="{i18n>settlement}" class="editRulePage">
+		<headerContent>
+			<Image src="/webapp/images/Sapours-Technologies.jpg" width="4em"></Image>
+		</headerContent>
+		<content>
+			<l:ResponsiveSplitter defaultPane="default">
+				<l:PaneContainer>
+					<l:SplitPane requiredParentWidth="400" id="default">
+						<Panel height="100%">
+							<Image src="image/ocrVw1_1.png" class="cropbox1"></Image>
+						</Panel>
+					</l:SplitPane>
+					<l:SplitPane requiredParentWidth="600">
+						<Panel height="100%" class="customClass">
+							<Image src="image/loading_1.gif" class="process_img"></Image>
+							<f:Form id="FormFixedAmount" editable="false">
+								<f:layout>
+									<f:ResponsiveGridLayout labelSpanXL="2" labelSpanL="2" labelSpanM="2" labelSpanS="12" adjustLabelSpan="false" emptySpanXL="0" emptySpanL="0"
+										emptySpanM="0" emptySpanS="0" columnsXL="4" columnsL="4" columnsM="1" singleContainerFullSize="true"/>
+								</f:layout>
+								<f:formContainers>
+									<f:FormContainer title="Header Data">
+										<f:formElements>
+											<f:FormElement label="{i18n>invoiceDate}">
+												<f:fields>
+													<Input value=""></Input>
+												</f:fields>
+											</f:FormElement>
+											<f:FormElement label="{i18n>customer}">
+												<f:fields>
+													<Input value=""></Input>
+												</f:fields>
+											</f:FormElement>
+											<f:FormElement label="{i18n>refrenceNumber}">
+												<f:fields>
+													<Input value=""></Input>
+												</f:fields>
+											</f:FormElement>
+											<f:FormElement label="{i18n>text}">
+												<f:fields>
+													<Input value=""></Input>
+												</f:fields>
+											</f:FormElement>
+											<f:FormElement label="{i18n>taxCode}">
+												<f:fields>
+													<Input value=""></Input>
+												</f:fields>
+											</f:FormElement>
+											<f:FormElement label="{i18n>taxAmount}">
+												<f:fields>
+													<Input value=""></Input>
+												</f:fields>
+											</f:FormElement>
+										</f:formElements>
+									</f:FormContainer>
+								</f:formContainers>
+							</f:Form>
+							<Table id="editTable" items="{Data>/Table}" class="SapTable SapTableEdit">
+								<columns>
+									<Column ><Text text="{i18n>collectionGroup}"/></Column>
+									<Column ><Text text="{i18n>collectionGroupdesc}"/></Column>
+									<Column><Text text="{i18n>fTtNature}"/></Column>
+									<Column><Text text="{i18n>accruedAmount}"/></Column>
+									<Column><Text text="{i18n>customerExpectedValue}"/></Column>
+								</columns>
+								<items>
+									<ColumnListItem>
+										<cells>
+											<Select enabled="false" items="{path:'inputs>/AttrList', templateShareable : true}" id="ddAttrSelect" change="fnChangeField"
+												selectedKey="{Data>Zattribute}">
+												<core:Item key="{inputs>key}" text="{inputs>value}"/>
+											</Select>
+										</cells>
+										<cells><Input editable="false" id="idInpLength" class="" value="{Data>Zlength}({Data>Zvalue})"/>
+										</cells>
+										<cells>
+											<Input editable="false" id="idInpValue" class="writableVal" value="{Data>Zidentifier1}"/></cells>
+										<cells>
+											<Input editable="false" id="InpValue" class="writableVal" value="{Data>Zidentifier1}"/>
+										</cells>
+									</ColumnListItem>
+								</items>
+							</Table>
+						</Panel>
+					</l:SplitPane>
+				</l:PaneContainer>
+			</l:ResponsiveSplitter>
+		</content>
+	</Page>
+</mvc:View>

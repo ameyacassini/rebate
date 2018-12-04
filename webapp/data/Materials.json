@@ -1,0 +1,369 @@
+{ 
+"ListItems": [{ "ddkey": "000000000001035674","ddtext": "RU DR 1998 150cl C1 G/BOX 464","MaterialType": "RA","MaterialTypeDescription": "RATAFIA"}
+,{ "ddkey": "000000000004200386","ddtext": "J&B RARE 70CL 40° NEW PALET C6","MaterialType": "RA","MaterialTypeDescription": "RATAFIA"}
+,{ "ddkey": "N21C6L18","ddtext": "PICON CLUB 100CL 18° C6","MaterialType": "PO","MaterialTypeDescription": "PORTO"}
+,{ "ddkey": "000000000004200569","ddtext": "PICON B. 100CL 18° BOX 312 C1","MaterialType": "PO","MaterialTypeDescription": "PORTO"}
+,{ "ddkey": "000000000001034545","ddtext": "PICON BIERE 150CL 18° C6","MaterialType": "PO","MaterialTypeDescription": "PORTO"}
+,{ "ddkey": "UD21090","ddtext": "JWALKER RED 100CL 40° C6","MaterialType": "BY","MaterialTypeDescription": "BRANDY"}
+,{ "ddkey": "000000000001020194","ddtext": "BT TERMANTHIA V06 75cl C4 UK","MaterialType": "MC","MaterialTypeDescription": "MARC"}
+,{ "ddkey": "000000000001024843","ddtext": "NEW SMIRNOFF ICE 27.5CL 5,0% C24","MaterialType": "AV","MaterialTypeDescription": "A.B.V"}
+,{ "ddkey": "000000000001034413","ddtext": "CP BRUT 75CL C6 SIGN CRD","MaterialType": "BY","MaterialTypeDescription": "BRANDY"}
+,{ "ddkey": "N19C6B20","ddtext": "SMIRNOFF RED NEW 70CL 37°5 C6","MaterialType": "AV","MaterialTypeDescription": "A.B.V"}
+,{ "ddkey": "000000000001020194","ddtext": "BT TERMANTHIA V06 75cl C4 UK","MaterialType": "MC","MaterialTypeDescription": "MARC"}
+,{ "ddkey": "000000000001035674","ddtext": "RU DR 1998 150cl C1 G/BOX 464","MaterialType": "RA","MaterialTypeDescription": "RATAFIA"}
+,{ "ddkey": "000000000001023760","ddtext": "BAILEYS MINIS SLEEVE 4X71ML 17° C6","MaterialType": "BY","MaterialTypeDescription": "BRANDY"}
+,{ "ddkey": "000000000001036504","ddtext": "SMIRNOFF 21 FLASK 6x20CL 37,5° C8","MaterialType": "AV","MaterialTypeDescription": "A.B.V"}
+,{ "ddkey": "000000000001034864","ddtext": "GLENKINCHIE 12A 70CL 43° C6","MaterialType": "MO","MaterialTypeDescription": "MOUSSEUX"}
+,{ "ddkey": "000000000004200386","ddtext": "J&B RARE 70CL 40° NEW PALET C6","MaterialType": "LI","MaterialTypeDescription": "LIQUEURS + AMER"}
+,{ "ddkey": "000000000004200408","ddtext": "J&B RARE 100CL 40° C6","MaterialType": "LI","MaterialTypeDescription": "LIQUEURS + AMER"}
+,{ "ddkey": "000000000004200386","ddtext": "J&B RARE 70CL 40° NEW PALET C6","MaterialType": "LI","MaterialTypeDescription": "LIQUEURS + AMER"}
+,{ "ddkey": "000000000001035674","ddtext": "RU DR 1998 150cl C1 G/BOX 464","MaterialType": "LI","MaterialTypeDescription": "LIQUEURS + AMER"}
+,{ "ddkey": "000000000001034545","ddtext": "PICON BIERE 150CL 18° C6","MaterialType": "CG","MaterialTypeDescription": "COGNAC BOUTEILLES"}
+,{ "ddkey": "000000000004200569","ddtext": "PICON B. 100CL 18° BOX 312 C1","MaterialType": "CG","MaterialTypeDescription": "COGNAC BOUTEILLES"}
+,{ "ddkey": "000000000001034545","ddtext": "PICON BIERE 150CL 18° C6","MaterialType": "CG","MaterialTypeDescription": "COGNAC BOUTEILLES"}
+,{ "ddkey": "N21C6L18","ddtext": "PICON CLUB 100CL 18° C6","MaterialType": "CG","MaterialTypeDescription": "COGNAC BOUTEILLES"}
+,{ "ddkey": "000000000004200569","ddtext": "PICON B. 100CL 18° BOX 312 C1","MaterialType": "CG","MaterialTypeDescription": "COGNAC BOUTEILLES"}
+,{ "ddkey": "000000000001034545","ddtext": "PICON BIERE 150CL 18° C6","MaterialType": "CG","MaterialTypeDescription": "COGNAC BOUTEILLES"}
+,{ "ddkey": "N21C6L18","ddtext": "PICON CLUB 100CL 18° C6","MaterialType": "CG","MaterialTypeDescription": "COGNAC BOUTEILLES"}
+,{ "ddkey": "000000000004200569","ddtext": "PICON B. 100CL 18° BOX 312 C1","MaterialType": "CG","MaterialTypeDescription": "COGNAC BOUTEILLES"}
+,{ "ddkey": "000000000001034545","ddtext": "PICON BIERE 150CL 18° C6","MaterialType": "CG","MaterialTypeDescription": "COGNAC BOUTEILLES"}
+,{ "ddkey": "N21C6L18","ddtext": "PICON CLUB 100CL 18° C6","MaterialType": "CG","MaterialTypeDescription": "COGNAC BOUTEILLES"}
+,{ "ddkey": "000000000004200569","ddtext": "PICON B. 100CL 18° BOX 312 C1","MaterialType": "CG","MaterialTypeDescription": "COGNAC BOUTEILLES"}
+,{ "ddkey": "000000000001034545","ddtext": "PICON BIERE 150CL 18° C6","MaterialType": "CG","MaterialTypeDescription": "COGNAC BOUTEILLES"}
+,{ "ddkey": "N21C6L18","ddtext": "PICON CLUB 100CL 18° C6","MaterialType": "CG","MaterialTypeDescription": "COGNAC BOUTEILLES"}
+,{ "ddkey": "000000000004200569","ddtext": "PICON B. 100CL 18° BOX 312 C1","MaterialType": "CG","MaterialTypeDescription": "COGNAC BOUTEILLES"}
+,{ "ddkey": "000000000001034545","ddtext": "PICON BIERE 150CL 18° C6","MaterialType": "CG","MaterialTypeDescription": "COGNAC BOUTEILLES"}
+,{ "ddkey": "N21C6L18","ddtext": "PICON CLUB 100CL 18° C6","MaterialType": "CG","MaterialTypeDescription": "COGNAC BOUTEILLES"}
+,{ "ddkey": "000000000004200569","ddtext": "PICON B. 100CL 18° BOX 312 C1","MaterialType": "CG","MaterialTypeDescription": "COGNAC BOUTEILLES"}
+,{ "ddkey": "000000000001034545","ddtext": "PICON BIERE 150CL 18° C6","MaterialType": "CG","MaterialTypeDescription": "COGNAC BOUTEILLES"}
+,{ "ddkey": "N21C6L18","ddtext": "PICON CLUB 100CL 18° C6","MaterialType": "CG","MaterialTypeDescription": "COGNAC BOUTEILLES"}
+,{ "ddkey": "000000000004200569","ddtext": "PICON B. 100CL 18° BOX 312 C1","MaterialType": "CG","MaterialTypeDescription": "COGNAC BOUTEILLES"}
+,{ "ddkey": "000000000001034545","ddtext": "PICON BIERE 150CL 18° C6","MaterialType": "CG","MaterialTypeDescription": "COGNAC BOUTEILLES"}
+,{ "ddkey": "N21C6L18","ddtext": "PICON CLUB 100CL 18° C6","MaterialType": "CG","MaterialTypeDescription": "COGNAC BOUTEILLES"}
+,{ "ddkey": "000000000004200569","ddtext": "PICON B. 100CL 18° BOX 312 C1","MaterialType": "CG","MaterialTypeDescription": "COGNAC BOUTEILLES"}
+,{ "ddkey": "000000000001034545","ddtext": "PICON BIERE 150CL 18° C6","MaterialType": "CG","MaterialTypeDescription": "COGNAC BOUTEILLES"}
+,{ "ddkey": "N21C6L18","ddtext": "PICON CLUB 100CL 18° C6","MaterialType": "CG","MaterialTypeDescription": "COGNAC BOUTEILLES"}
+,{ "ddkey": "000000000004200569","ddtext": "PICON B. 100CL 18° BOX 312 C1","MaterialType": "CG","MaterialTypeDescription": "COGNAC BOUTEILLES"}
+,{ "ddkey": "000000000001034545","ddtext": "PICON BIERE 150CL 18° C6","MaterialType": "CG","MaterialTypeDescription": "COGNAC BOUTEILLES"}
+,{ "ddkey": "000000000004200569","ddtext": "PICON B. 100CL 18° BOX 312 C1","MaterialType": "PO","MaterialTypeDescription": "PORTO"}
+,{ "ddkey": "000000000001034545","ddtext": "PICON BIERE 150CL 18° C6","MaterialType": "PO","MaterialTypeDescription": "PORTO"}
+,{ "ddkey": "N21C6L18","ddtext": "PICON CLUB 100CL 18° C6","MaterialType": "PO","MaterialTypeDescription": "PORTO"}
+,{ "ddkey": "000000000004200569","ddtext": "PICON B. 100CL 18° BOX 312 C1","MaterialType": "PO","MaterialTypeDescription": "PORTO"}
+,{ "ddkey": "000000000001034545","ddtext": "PICON BIERE 150CL 18° C6","MaterialType": "PO","MaterialTypeDescription": "PORTO"}
+,{ "ddkey": "N21C6L18","ddtext": "PICON CLUB 100CL 18° C6","MaterialType": "PO","MaterialTypeDescription": "PORTO"}
+,{ "ddkey": "N21C6L18","ddtext": "PICON CLUB 100CL 18° C6","MaterialType": "PO","MaterialTypeDescription": "PORTO"}
+,{ "ddkey": "000000000001034545","ddtext": "PICON BIERE 150CL 18° C6","MaterialType": "PO","MaterialTypeDescription": "PORTO"}
+,{ "ddkey": "000000000004200569","ddtext": "PICON B. 100CL 18° BOX 312 C1","MaterialType": "PO","MaterialTypeDescription": "PORTO"}
+,{ "ddkey": "000000000001034545","ddtext": "PICON BIERE 150CL 18° C6","MaterialType": "PO","MaterialTypeDescription": "PORTO"}
+,{ "ddkey": "N21C6L18","ddtext": "PICON CLUB 100CL 18° C6","MaterialType": "PO","MaterialTypeDescription": "PORTO"}
+,{ "ddkey": "000000000004200569","ddtext": "PICON B. 100CL 18° BOX 312 C1","MaterialType": "PO","MaterialTypeDescription": "PORTO"}
+,{ "ddkey": "000000000001034545","ddtext": "PICON BIERE 150CL 18° C6","MaterialType": "PO","MaterialTypeDescription": "PORTO"}
+,{ "ddkey": "N21C6L18","ddtext": "PICON CLUB 100CL 18° C6","MaterialType": "PO","MaterialTypeDescription": "PORTO"}
+,{ "ddkey": "000000000004200569","ddtext": "PICON B. 100CL 18° BOX 312 C1","MaterialType": "PO","MaterialTypeDescription": "PORTO"}
+,{ "ddkey": "000000000001034545","ddtext": "PICON BIERE 150CL 18° C6","MaterialType": "PO","MaterialTypeDescription": "PORTO"}
+,{ "ddkey": "N21C6L18","ddtext": "PICON CLUB 100CL 18° C6","MaterialType": "PO","MaterialTypeDescription": "PORTO"}
+,{ "ddkey": "000000000004200569","ddtext": "PICON B. 100CL 18° BOX 312 C1","MaterialType": "PO","MaterialTypeDescription": "PORTO"}
+,{ "ddkey": "000000000001034545","ddtext": "PICON BIERE 150CL 18° C6","MaterialType": "PO","MaterialTypeDescription": "PORTO"}
+,{ "ddkey": "N21C6L18","ddtext": "PICON CLUB 100CL 18° C6","MaterialType": "PO","MaterialTypeDescription": "PORTO"}
+,{ "ddkey": "000000000004200569","ddtext": "PICON B. 100CL 18° BOX 312 C1","MaterialType": "PO","MaterialTypeDescription": "PORTO"}
+,{ "ddkey": "000000000001034545","ddtext": "PICON BIERE 150CL 18° C6","MaterialType": "PO","MaterialTypeDescription": "PORTO"}
+,{ "ddkey": "N21C6L18","ddtext": "PICON CLUB 100CL 18° C6","MaterialType": "PO","MaterialTypeDescription": "PORTO"}
+,{ "ddkey": "000000000004200569","ddtext": "PICON B. 100CL 18° BOX 312 C1","MaterialType": "PO","MaterialTypeDescription": "PORTO"}
+,{ "ddkey": "000000000001034545","ddtext": "PICON BIERE 150CL 18° C6","MaterialType": "PO","MaterialTypeDescription": "PORTO"}
+,{ "ddkey": "N21C6L18","ddtext": "PICON CLUB 100CL 18° C6","MaterialType": "PO","MaterialTypeDescription": "PORTO"}
+,{ "ddkey": "000000000004200569","ddtext": "PICON B. 100CL 18° BOX 312 C1","MaterialType": "PO","MaterialTypeDescription": "PORTO"}
+,{ "ddkey": "000000000001034545","ddtext": "PICON BIERE 150CL 18° C6","MaterialType": "PO","MaterialTypeDescription": "PORTO"}
+,{ "ddkey": "N21C6L18","ddtext": "PICON CLUB 100CL 18° C6","MaterialType": "PO","MaterialTypeDescription": "PORTO"}
+,{ "ddkey": "000000000004200569","ddtext": "PICON B. 100CL 18° BOX 312 C1","MaterialType": "PO","MaterialTypeDescription": "PORTO"}
+,{ "ddkey": "000000000001034545","ddtext": "PICON BIERE 150CL 18° C6","MaterialType": "PO","MaterialTypeDescription": "PORTO"}
+,{ "ddkey": "N21C6L18","ddtext": "PICON CLUB 100CL 18° C6","MaterialType": "PO","MaterialTypeDescription": "PORTO"}
+,{ "ddkey": "000000000004200569","ddtext": "PICON B. 100CL 18° BOX 312 C1","MaterialType": "PO","MaterialTypeDescription": "PORTO"}
+,{ "ddkey": "000000000001034545","ddtext": "PICON BIERE 150CL 18° C6","MaterialType": "PO","MaterialTypeDescription": "PORTO"}
+,{ "ddkey": "N21C6L18","ddtext": "PICON CLUB 100CL 18° C6","MaterialType": "PO","MaterialTypeDescription": "PORTO"}
+,{ "ddkey": "N5A0200061","ddtext": "DISTIL CRAGGANMORE 70CL 40° ETUI C6","MaterialType": "BY","MaterialTypeDescription": "BRANDY"}
+,{ "ddkey": "N620000061","ddtext": "GLENKINCHIE 10 ANS 70CL 43° ETUI C6","MaterialType": "MO","MaterialTypeDescription": "MOUSSEUX"}
+,{ "ddkey": "N622200061","ddtext": "LAGAVULIN 16 ANS 70CL 43° ETUI C6","MaterialType": "MO","MaterialTypeDescription": "MOUSSEUX"}
+,{ "ddkey": "000000000004200569","ddtext": "PICON B. 100CL 18° BOX 312 C1","MaterialType": "PO","MaterialTypeDescription": "PORTO"}
+,{ "ddkey": "000000000001034545","ddtext": "PICON BIERE 150CL 18° C6","MaterialType": "CG","MaterialTypeDescription": "COGNAC BOUTEILLES"}
+,{ "ddkey": "N21C6L18","ddtext": "PICON CLUB 100CL 18° C6","MaterialType": "CG","MaterialTypeDescription": "COGNAC BOUTEILLES"}
+,{ "ddkey": "000000000004200569","ddtext": "PICON B. 100CL 18° BOX 312 C1","MaterialType": "CG","MaterialTypeDescription": "COGNAC BOUTEILLES"}
+,{ "ddkey": "000000000001034545","ddtext": "PICON BIERE 150CL 18° C6","MaterialType": "CG","MaterialTypeDescription": "COGNAC BOUTEILLES"}
+,{ "ddkey": "N21C6L18","ddtext": "PICON CLUB 100CL 18° C6","MaterialType": "CG","MaterialTypeDescription": "COGNAC BOUTEILLES"}
+,{ "ddkey": "N5A0200061","ddtext": "DISTIL CRAGGANMORE 70CL 40° ETUI C6","MaterialType": "BY","MaterialTypeDescription": "BRANDY"}
+,{ "ddkey": "N620000061","ddtext": "GLENKINCHIE 10 ANS 70CL 43° ETUI C6","MaterialType": "MO","MaterialTypeDescription": "MOUSSEUX"}
+,{ "ddkey": "N622200061","ddtext": "LAGAVULIN 16 ANS 70CL 43° ETUI C6","MaterialType": "MO","MaterialTypeDescription": "MOUSSEUX"}
+,{ "ddkey": "N5A0200061","ddtext": "DISTIL CRAGGANMORE 70CL 40° ETUI C6","MaterialType": "BY","MaterialTypeDescription": "BRANDY"}
+,{ "ddkey": "N620000061","ddtext": "GLENKINCHIE 10 ANS 70CL 43° ETUI C6","MaterialType": "MO","MaterialTypeDescription": "MOUSSEUX"}
+,{ "ddkey": "N622200061","ddtext": "LAGAVULIN 16 ANS 70CL 43° ETUI C6","MaterialType": "MO","MaterialTypeDescription": "MOUSSEUX"}
+,{ "ddkey": "000000000004200569","ddtext": "PICON B. 100CL 18° BOX 312 C1","MaterialType": "CG","MaterialTypeDescription": "COGNAC BOUTEILLES"}
+,{ "ddkey": "000000000001034545","ddtext": "PICON BIERE 150CL 18° C6","MaterialType": "CG","MaterialTypeDescription": "COGNAC BOUTEILLES"}
+,{ "ddkey": "N21C6L18","ddtext": "PICON CLUB 100CL 18° C6","MaterialType": "PO","MaterialTypeDescription": "PORTO"}
+,{ "ddkey": "000000000004200569","ddtext": "PICON B. 100CL 18° BOX 312 C1","MaterialType": "PO","MaterialTypeDescription": "PORTO"}
+,{ "ddkey": "000000000001034545","ddtext": "PICON BIERE 150CL 18° C6","MaterialType": "PO","MaterialTypeDescription": "PORTO"}
+,{ "ddkey": "N21C6L18","ddtext": "PICON CLUB 100CL 18° C6","MaterialType": "PO","MaterialTypeDescription": "PORTO"}
+,{ "ddkey": "N5A0200061","ddtext": "DISTIL CRAGGANMORE 70CL 40° ETUI C6","MaterialType": "BY","MaterialTypeDescription": "BRANDY"}
+,{ "ddkey": "N620000061","ddtext": "GLENKINCHIE 10 ANS 70CL 43° ETUI C6","MaterialType": "MO","MaterialTypeDescription": "MOUSSEUX"}
+,{ "ddkey": "N622200061","ddtext": "LAGAVULIN 16 ANS 70CL 43° ETUI C6","MaterialType": "MO","MaterialTypeDescription": "MOUSSEUX"}
+,{ "ddkey": "N5A0200061","ddtext": "DISTIL CRAGGANMORE 70CL 40° ETUI C6","MaterialType": "BY","MaterialTypeDescription": "BRANDY"}
+,{ "ddkey": "N620000061","ddtext": "GLENKINCHIE 10A 70CL 43° ETUI C6","MaterialType": "MO","MaterialTypeDescription": "MOUSSEUX"}
+,{ "ddkey": "N622200061","ddtext": "LAGAVULIN 16A 70CL 43° ETUI C6","MaterialType": "MO","MaterialTypeDescription": "MOUSSEUX"}
+,{ "ddkey": "000000000004200569","ddtext": "PICON B. 100CL 18° BOX 312 C1","MaterialType": "PO","MaterialTypeDescription": "PORTO"}
+,{ "ddkey": "000000000001034545","ddtext": "PICON BIERE 150CL 18° C6","MaterialType": "PO","MaterialTypeDescription": "PORTO"}
+,{ "ddkey": "N21C6L18","ddtext": "PICON CLUB 100CL 18° C6","MaterialType": "PO","MaterialTypeDescription": "PORTO"}
+,{ "ddkey": "N5A0200061","ddtext": "DISTIL CRAGGANMORE 70CL 40° ETUI C6","MaterialType": "BY","MaterialTypeDescription": "BRANDY"}
+,{ "ddkey": "N620000061","ddtext": "GLENKINCHIE 10A 70CL 43° ETUI C6","MaterialType": "MO","MaterialTypeDescription": "MOUSSEUX"}
+,{ "ddkey": "N622200061","ddtext": "LAGAVULIN 16A 70CL 43° ETUI C6","MaterialType": "MO","MaterialTypeDescription": "MOUSSEUX"}
+,{ "ddkey": "N5A0200061","ddtext": "DISTIL CRAGGANMORE 70CL 40° ETUI C6","MaterialType": "BY","MaterialTypeDescription": "BRANDY"}
+,{ "ddkey": "N620000061","ddtext": "GLENKINCHIE 10A 70CL 43° ETUI C6","MaterialType": "MO","MaterialTypeDescription": "MOUSSEUX"}
+,{ "ddkey": "N622200061","ddtext": "LAGAVULIN 16A 70CL 43° ETUI C6","MaterialType": "MO","MaterialTypeDescription": "MOUSSEUX"}
+,{ "ddkey": "N622200061","ddtext": "LAGAVULIN 16A 70CL 43° ETUI C6","MaterialType": "MO","MaterialTypeDescription": "MOUSSEUX"}
+,{ "ddkey": "N620000061","ddtext": "GLENKINCHIE 10A 70CL 43° ETUI C6","MaterialType": "MO","MaterialTypeDescription": "MOUSSEUX"}
+,{ "ddkey": "000000000001035699","ddtext": "DOM PÉRIGNON","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035700","ddtext": "MOËT & CHANDON","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035697","ddtext": "GLENMORANGIE SINGLE MALT","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035698","ddtext": "JONNY WALKER","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035698","ddtext": "JONNY WALKER","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035697","ddtext": "GLENMORANGIE SINGLE MALT","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035698","ddtext": "JONNY WALKER","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035697","ddtext": "GLENMORANGIE SINGLE MALT","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035697","ddtext": "GLENMORANGIE SINGLE MALT","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035698","ddtext": "JONNY WALKER","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035698","ddtext": "JONNY WALKER","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035697","ddtext": "GLENMORANGIE SINGLE MALT","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035698","ddtext": "JONNY WALKER","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035697","ddtext": "GLENMORANGIE SINGLE MALT","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035699","ddtext": "DOM PÉRIGNON","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035700","ddtext": "MOËT & CHANDON","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035699","ddtext": "DOM PÉRIGNON","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035700","ddtext": "MOËT & CHANDON","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "N5A0200061","ddtext": "DISTIL CRAGGANMORE 70CL 40° ETUI C6","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "N620000061","ddtext": "GLENKINCHIE 10A 70CL 43° ETUI C6","MaterialType": "MO","MaterialTypeDescription": "MOUSSEUX"}
+,{ "ddkey": "N622200061","ddtext": "LAGAVULIN 16A 70CL 43° ETUI C6","MaterialType": "MO","MaterialTypeDescription": "MOUSSEUX"}
+,{ "ddkey": "000000000001035697","ddtext": "GLENMORANGIE SINGLE MALT","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035698","ddtext": "JONNY WALKER","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035699","ddtext": "DOM PÉRIGNON","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035700","ddtext": "MOËT & CHANDON","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035740","ddtext": "Moet & Chandon Brut Imperial","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035728","ddtext": "Hennessy XO 70cl, 40%","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035740","ddtext": "Moet & Chandon Brut Imperial","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035728","ddtext": "Hennessy XO 70cl, 40%","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035740","ddtext": "Moet & Chandon Brut Imperial","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035741","ddtext": "Moet & Chandon Rose","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035728","ddtext": "Hennessy XO 70cl, 40%","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035729","ddtext": "Hennessy VS - bottled 1990 100cl, 40%","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035722","ddtext": "Hennessy Fine de Cognac (70cl, 40%)","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035740","ddtext": "Moet & Chandon Brut Imperial","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035741","ddtext": "Moet & Chandon Rose","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035728","ddtext": "Hennessy XO 70cl, 40%","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035729","ddtext": "Hennessy VS - bottled 1990 100cl, 40%","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035740","ddtext": "Moet & Chandon Brut Imperial","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035741","ddtext": "Moet & Chandon Rose","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035728","ddtext": "Hennessy XO 70cl, 40%","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035729","ddtext": "Hennessy VS - bottled 1990 100cl, 40%","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035697","ddtext": "GLENMORANGIE SINGLE MALT","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035698","ddtext": "JONNY WALKER","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035699","ddtext": "DOM PÉRIGNON","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035700","ddtext": "MOËT & CHANDON","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035701","ddtext": "CHÂTEAU D'YQUEM","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035702","ddtext": "CHEVAL DES ANDES","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035699","ddtext": "DOM PÉRIGNON","MaterialType": "CH","MaterialTypeDescription": "CHAMPAGNE"}
+,{ "ddkey": "000000000001035700","ddtext": "MOËT & CHANDON","MaterialType": "CH","MaterialTypeDescription": "CHAMPAGNE"}
+,{ "ddkey": "000000000001035701","ddtext": "CHÂTEAU D'YQUEM","MaterialType": "CH","MaterialTypeDescription": "CHAMPAGNE"}
+,{ "ddkey": "000000000001035702","ddtext": "CHEVAL DES ANDES","MaterialType": "CH","MaterialTypeDescription": "CHAMPAGNE"}
+,{ "ddkey": "000000000001035699","ddtext": "DOM PÉRIGNON","MaterialType": "CH","MaterialTypeDescription": "CHAMPAGNE"}
+,{ "ddkey": "000000000001035700","ddtext": "MOËT & CHANDON","MaterialType": "CH","MaterialTypeDescription": "CHAMPAGNE"}
+,{ "ddkey": "000000000001035701","ddtext": "CHÂTEAU D'YQUEM","MaterialType": "CH","MaterialTypeDescription": "CHAMPAGNE"}
+,{ "ddkey": "000000000001035702","ddtext": "CHEVAL DES ANDES","MaterialType": "CH","MaterialTypeDescription": "CHAMPAGNE"}
+,{ "ddkey": "000000000001035699","ddtext": "DOM PÉRIGNON","MaterialType": "CH","MaterialTypeDescription": "CHAMPAGNE"}
+,{ "ddkey": "000000000001035700","ddtext": "MOËT & CHANDON","MaterialType": "CH","MaterialTypeDescription": "CHAMPAGNE"}
+,{ "ddkey": "000000000001035701","ddtext": "CHÂTEAU D'YQUEM","MaterialType": "CH","MaterialTypeDescription": "CHAMPAGNE"}
+,{ "ddkey": "000000000001035702","ddtext": "CHEVAL DES ANDES","MaterialType": "CH","MaterialTypeDescription": "CHAMPAGNE"}
+,{ "ddkey": "000000000001035699","ddtext": "DOM PÉRIGNON","MaterialType": "CH","MaterialTypeDescription": "CHAMPAGNE"}
+,{ "ddkey": "000000000001035700","ddtext": "MOËT & CHANDON","MaterialType": "CH","MaterialTypeDescription": "CHAMPAGNE"}
+,{ "ddkey": "000000000001035701","ddtext": "CHÂTEAU D'YQUEM","MaterialType": "CH","MaterialTypeDescription": "CHAMPAGNE"}
+,{ "ddkey": "000000000001035702","ddtext": "CHEVAL DES ANDES","MaterialType": "CH","MaterialTypeDescription": "CHAMPAGNE"}
+,{ "ddkey": "000000000001035699","ddtext": "DOM PÉRIGNON","MaterialType": "CH","MaterialTypeDescription": "CHAMPAGNE"}
+,{ "ddkey": "000000000001035699","ddtext": "DOM PÉRIGNON","MaterialType": "CH","MaterialTypeDescription": "CHAMPAGNE"}
+,{ "ddkey": "000000000001035749","ddtext": "Krug Grande Cuvee NV","MaterialType": "CH","MaterialTypeDescription": "CHAMPAGNE"}
+,{ "ddkey": "000000000001035749","ddtext": "Krug Grande Cuvee NV","MaterialType": "CH","MaterialTypeDescription": "CHAMPAGNE"}
+,{ "ddkey": "000000000001035722","ddtext": "Hennessy Fine de Cognac (70cl, 40%)","MaterialType": "CH","MaterialTypeDescription": "CHAMPAGNE"}
+,{ "ddkey": "000000000001035724","ddtext": "Hennessy VS 1.5l 150cl, 40%","MaterialType": "CH","MaterialTypeDescription": "CHAMPAGNE"}
+,{ "ddkey": "000000000001035740","ddtext": "Moet & Chandon Brut Imperial","MaterialType": "CH","MaterialTypeDescription": "CHAMPAGNE"}
+,{ "ddkey": "000000000001035741","ddtext": "Moet & Chandon Rose","MaterialType": "CH","MaterialTypeDescription": "CHAMPAGNE"}
+,{ "ddkey": "000000000001035756","ddtext": "BOROLI","MaterialType": "CH","MaterialTypeDescription": "CHAMPAGNE"}
+,{ "ddkey": "000000000001035757","ddtext": "CAPE MENTELLE","MaterialType": "CH","MaterialTypeDescription": "CHAMPAGNE"}
+,{ "ddkey": "000000000001035729","ddtext": "Hennessy VS - bottled 1990 100cl, 40%","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035730","ddtext": "Hennessy Paradis Imperial (70cl, 40%)","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035727","ddtext": "Hennessy XO Limited Edition 70cl","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035759","ddtext": "CHÂTEAU D'YQUEM","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035762","ddtext": "BODEGA NUMANTHIA","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035727","ddtext": "Hennessy XO Limited Edition 70cl","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035743","ddtext": "Moet & Chandon Vintage Rose 2004","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035744","ddtext": "Moet & Chandon Brut Imperial NV magnum","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035759","ddtext": "CHÂTEAU D'YQUEM","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035760","ddtext": "CHEVAL DES ANDES","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035759","ddtext": "CHÂTEAU D'YQUEM","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035760","ddtext": "CHEVAL DES ANDES","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035743","ddtext": "Moet & Chandon Vintage Rose 2004","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035744","ddtext": "Moet & Chandon Brut Imperial NV magnum","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035743","ddtext": "Moet & Chandon Vintage Rose 2004","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035760","ddtext": "CHEVAL DES ANDES","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035744","ddtext": "Moet & Chandon Brut Imperial NV magnum","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035759","ddtext": "CHÂTEAU D'YQUEM","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035743","ddtext": "Moet & Chandon Vintage Rose 2004","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035760","ddtext": "CHEVAL DES ANDES","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035744","ddtext": "Moet & Chandon Brut Imperial NV magnum","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035759","ddtext": "CHÂTEAU D'YQUEM","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035743","ddtext": "Moet & Chandon Vintage Rose 2004","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035760","ddtext": "CHEVAL DES ANDES","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035744","ddtext": "Moet & Chandon Brut Imperial NV magnum","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035759","ddtext": "CHÂTEAU D'YQUEM","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035745","ddtext": "Moet & Chandon Brut Imperial NV jeroboam","MaterialType": "AC","MaterialTypeDescription": "ARTICLES COMPOSES"}
+,{ "ddkey": "000000000001035746","ddtext": "Moet & Chandon Brut Imperial NV methusel","MaterialType": "AC","MaterialTypeDescription": "ARTICLES COMPOSES"}
+,{ "ddkey": "000000000001035746","ddtext": "Moet & Chandon Brut Imperial NV methusel","MaterialType": "AC","MaterialTypeDescription": "ARTICLES COMPOSES"}
+,{ "ddkey": "000000000001035745","ddtext": "Moet & Chandon Brut Imperial NV jeroboam","MaterialType": "AC","MaterialTypeDescription": "ARTICLES COMPOSES"}
+,{ "ddkey": "000000000001035745","ddtext": "Moet & Chandon Brut Imperial NV jeroboam","MaterialType": "AC","MaterialTypeDescription": "ARTICLES COMPOSES"}
+,{ "ddkey": "000000000001035746","ddtext": "Moet & Chandon Brut Imperial NV methusel","MaterialType": "AC","MaterialTypeDescription": "ARTICLES COMPOSES"}
+,{ "ddkey": "000000000001035758","ddtext": "CHANDON","MaterialType": "AC","MaterialTypeDescription": "ARTICLES COMPOSES"}
+,{ "ddkey": "000000000001035759","ddtext": "CHÂTEAU D'YQUEM","MaterialType": "AC","MaterialTypeDescription": "ARTICLES COMPOSES"}
+,{ "ddkey": "000000000001035740","ddtext": "Moet & Chandon Brut Imperial","MaterialType": "AC","MaterialTypeDescription": "ARTICLES COMPOSES"}
+,{ "ddkey": "000000000001035756","ddtext": "BOROLI","MaterialType": "AC","MaterialTypeDescription": "ARTICLES COMPOSES"}
+,{ "ddkey": "000000000001035756","ddtext": "BOROLI","MaterialType": "AC","MaterialTypeDescription": "ARTICLES COMPOSES"}
+,{ "ddkey": "000000000001035740","ddtext": "Moet & Chandon Brut Imperial","MaterialType": "AC","MaterialTypeDescription": "ARTICLES COMPOSES"}
+,{ "ddkey": "000000000001035729","ddtext": "Hennessy VS - bottled 1990 100cl, 40%","MaterialType": "AC","MaterialTypeDescription": "ARTICLES COMPOSES"}
+,{ "ddkey": "000000000001035730","ddtext": "Hennessy Paradis Imperial (70cl, 40%)","MaterialType": "AC","MaterialTypeDescription": "ARTICLES COMPOSES"}
+,{ "ddkey": "000000000001035742","ddtext": "Moet & Chandon Vintage 2006","MaterialType": "AC","MaterialTypeDescription": "ARTICLES COMPOSES"}
+,{ "ddkey": "000000000001035743","ddtext": "Moet & Chandon Vintage Rose 2004","MaterialType": "AC","MaterialTypeDescription": "ARTICLES COMPOSES"}
+,{ "ddkey": "000000000001035743","ddtext": "Moet & Chandon Vintage Rose 2004","MaterialType": "AC","MaterialTypeDescription": "ARTICLES COMPOSES"}
+,{ "ddkey": "000000000001035744","ddtext": "Moet & Chandon Brut Imperial NV magnum","MaterialType": "AC","MaterialTypeDescription": "ARTICLES COMPOSES"}
+,{ "ddkey": "000000000001035745","ddtext": "Moet & Chandon Brut Imperial NV jeroboam","MaterialType": "AC","MaterialTypeDescription": "ARTICLES COMPOSES"}
+,{ "ddkey": "000000000001035746","ddtext": "Moet & Chandon Brut Imperial NV methusel","MaterialType": "AC","MaterialTypeDescription": "ARTICLES COMPOSES"}
+,{ "ddkey": "000000000001035747","ddtext": "Dom Perignon Vintage 2005","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035748","ddtext": "Dom Perignon Vintage Rose 2003","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035749","ddtext": "Krug Grande Cuvee NV","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035750","ddtext": "Krug Rose NV","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035751","ddtext": "Krug Vintage 2000","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035752","ddtext": "Ruinart R Brut NV","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035753","ddtext": "Ruinart Blanc de Blanc NV","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035749","ddtext": "Krug Grande Cuvee NV","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035750","ddtext": "Krug Rose NV","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035759","ddtext": "CHÂTEAU D'YQUEM","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035760","ddtext": "CHEVAL DES ANDES","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035754","ddtext": "Ruinart Rose NV","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035755","ddtext": "Ruinart R Brut magnum","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035762","ddtext": "BODEGA NUMANTHIA","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035763","ddtext": "TERRAZAS DE LOS ANDES","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035742","ddtext": "Moet & Chandon Vintage 2006","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035743","ddtext": "Moet & Chandon Vintage Rose 2004","MaterialType": "AB","MaterialTypeDescription": "ALCOOLS BLANCS"}
+,{ "ddkey": "000000000001035757","ddtext": "CAPE MENTELLE","MaterialType": "AB","MaterialTypeDescription": "ALCOOLS BLANCS"}
+,{ "ddkey": "000000000001035758","ddtext": "CHANDON","MaterialType": "AB","MaterialTypeDescription": "ALCOOLS BLANCS"}
+,{ "ddkey": "000000000001035722","ddtext": "Hennessy Fine de Cognac (70cl, 40%)","MaterialType": "AB","MaterialTypeDescription": "ALCOOLS BLANCS"}
+,{ "ddkey": "000000000001035724","ddtext": "Hennessy VS 1.5l 150cl, 40%","MaterialType": "AB","MaterialTypeDescription": "ALCOOLS BLANCS"}
+,{ "ddkey": "000000000001035725","ddtext": "Hennessy Paradis 70cl, 40%","MaterialType": "AB","MaterialTypeDescription": "ALCOOLS BLANCS"}
+,{ "ddkey": "000000000001035740","ddtext": "Moet & Chandon Brut Imperial","MaterialType": "AB","MaterialTypeDescription": "ALCOOLS BLANCS"}
+,{ "ddkey": "000000000001035741","ddtext": "Moet & Chandon Rose","MaterialType": "AB","MaterialTypeDescription": "ALCOOLS BLANCS"}
+,{ "ddkey": "000000000001035742","ddtext": "Moet & Chandon Vintage 2006","MaterialType": "AB","MaterialTypeDescription": "ALCOOLS BLANCS"}
+,{ "ddkey": "000000000001035726","ddtext": "Richard Hennessy 70cl, 40%","MaterialType": "AB","MaterialTypeDescription": "ALCOOLS BLANCS"}
+,{ "ddkey": "000000000001035727","ddtext": "Hennessy XO Limited Edition 70cl","MaterialType": "AB","MaterialTypeDescription": "ALCOOLS BLANCS"}
+,{ "ddkey": "000000000001035749","ddtext": "Krug Grande Cuvee NV","MaterialType": "AB","MaterialTypeDescription": "ALCOOLS BLANCS"}
+,{ "ddkey": "000000000001035750","ddtext": "Krug Rose NV","MaterialType": "AB","MaterialTypeDescription": "ALCOOLS BLANCS"}
+,{ "ddkey": "000000000001035756","ddtext": "BOROLI","MaterialType": "AB","MaterialTypeDescription": "ALCOOLS BLANCS"}
+,{ "ddkey": "000000000001035757","ddtext": "CAPE MENTELLE","MaterialType": "AB","MaterialTypeDescription": "ALCOOLS BLANCS"}
+,{ "ddkey": "000000000001035726","ddtext": "Richard Hennessy 70cl, 40%","MaterialType": "AB","MaterialTypeDescription": "ALCOOLS BLANCS"}
+,{ "ddkey": "000000000001035727","ddtext": "Hennessy XO Limited Edition 70cl","MaterialType": "AB","MaterialTypeDescription": "ALCOOLS BLANCS"}
+,{ "ddkey": "000000000001035749","ddtext": "Krug Grande Cuvee NV","MaterialType": "AB","MaterialTypeDescription": "ALCOOLS BLANCS"}
+,{ "ddkey": "000000000001035750","ddtext": "Krug Rose NV","MaterialType": "AB","MaterialTypeDescription": "ALCOOLS BLANCS"}
+,{ "ddkey": "000000000001035756","ddtext": "BOROLI","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035757","ddtext": "CAPE MENTELLE","MaterialType": "WH","MaterialTypeDescription": "WHISKIES"}
+,{ "ddkey": "000000000001035726","ddtext": "Richard Hennessy 70cl, 40%","MaterialType": "AA","MaterialTypeDescription": "B.A.A"}
+,{ "ddkey": "000000000001035757","ddtext": "CAPE MENTELLE","MaterialType": "AA","MaterialTypeDescription": "B.A.A"}
+,{ "ddkey": "000000000001035674","ddtext": "RU DR 1998 150cl C1 G/BOX 464","MaterialType": "LI","MaterialTypeDescription": "LIQUEURS + AMER"}
+,{ "ddkey": "000000000001035674","ddtext": "RU DR 1998 150cl C1 G/BOX 464","MaterialType": "LI","MaterialTypeDescription": "LIQUEURS + AMER"}
+,{ "ddkey": "000000000001035674","ddtext": "RU DR 1998 150cl C1 G/BOX 464","MaterialType": "LI","MaterialTypeDescription": "LIQUEURS + AMER"}
+,{ "ddkey": "000000000001035674","ddtext": "RU DR 1998 150cl C1 G/BOX 464","MaterialType": "LI","MaterialTypeDescription": "LIQUEURS + AMER"}
+,{ "ddkey": "000000000001035674","ddtext": "RU DR 1998 150cl C1 G/BOX 464","MaterialType": "LI","MaterialTypeDescription": "LIQUEURS + AMER"}
+,{ "ddkey": "000000000101017121","ddtext": "WRAPPING MND 1","MaterialType": "MC","MaterialTypeDescription": "MARC"}
+,{ "ddkey": "000000000001035674","ddtext": "ITEM 1 DEV TEST","MaterialType": "LI","MaterialTypeDescription": "LIQUEURS + AMER"}
+,{ "ddkey": "000000000001035674","ddtext": "RU DR 1998 150cl C1 G/BOX 464","MaterialType": "LI","MaterialTypeDescription": "LIQUEURS + AMER"}
+,{ "ddkey": "000000000001035674","ddtext": "RU DR 1998 150cl C1 G/BOX 464","MaterialType": "LI","MaterialTypeDescription": "LIQUEURS + AMER"}
+,{ "ddkey": "000000000001035694","ddtext": "ITEM 2 DEV TEST","MaterialType": "LI","MaterialTypeDescription": "LIQUEURS + AMER"}
+,{ "ddkey": "000000000001035695","ddtext": "ITEM 3 DEV TEST","MaterialType": "LI","MaterialTypeDescription": "LIQUEURS + AMER"}
+,{ "ddkey": "000000000001035694","ddtext": "ITEM 2 DEV TEST","MaterialType": "LI","MaterialTypeDescription": "LIQUEURS + AMER"}
+,{ "ddkey": "000000000101017121","ddtext": "STICKER CUSTOM 1","MaterialType": "LI","MaterialTypeDescription": "LIQUEURS + AMER"}
+,{ "ddkey": "000000000001035695","ddtext": "ITEM 3 DEV TEST","MaterialType": "LI","MaterialTypeDescription": "LIQUEURS + AMER"}
+,{ "ddkey": "000000000001035694","ddtext": "ITEM 2 DEV TEST","MaterialType": "LI","MaterialTypeDescription": "LIQUEURS + AMER"}
+,{ "ddkey": "000000000101017121","ddtext": "STICKER CUSTOM 1","MaterialType": "LI","MaterialTypeDescription": "LIQUEURS + AMER"}
+,{ "ddkey": "000000000001035695","ddtext": "ITEM 3 DEV TEST","MaterialType": "LI","MaterialTypeDescription": "LIQUEURS + AMER"}
+,{ "ddkey": "000000000001035694","ddtext": "ITEM 2 DEV TEST","MaterialType": "LI","MaterialTypeDescription": "LIQUEURS + AMER"}
+,{ "ddkey": "000000000101017121","ddtext": "STICKER CUSTOM 1","MaterialType": "LI","MaterialTypeDescription": "LIQUEURS + AMER"}
+,{ "ddkey": "000000000001035674","ddtext": "ITEM 1 DEV TEST","MaterialType": "LI","MaterialTypeDescription": "LIQUEURS + AMER"}
+,{ "ddkey": "000000000001035695","ddtext": "ITEM 3 DEV TEST","MaterialType": "RA","MaterialTypeDescription": "RATAFIA"}
+,{ "ddkey": "000000000001035674","ddtext": "ITEM 1 DEV TEST","MaterialType": "RA","MaterialTypeDescription": "RATAFIA"}
+,{ "ddkey": "000000000001035694","ddtext": "ITEM 2 DEV TEST","MaterialType": "RA","MaterialTypeDescription": "RATAFIA"}
+,{ "ddkey": "000000000101017121","ddtext": "STICKER CUSTOM 2","MaterialType": "RA","MaterialTypeDescription": "RATAFIA"}
+,{ "ddkey": "000000000101017121","ddtext": "STICKER CUSTOM 1","MaterialType": "RA","MaterialTypeDescription": "RATAFIA"}
+,{ "ddkey": "000000000001035695","ddtext": "ITEM 3 DEV TEST","MaterialType": "RA","MaterialTypeDescription": "RATAFIA"}
+,{ "ddkey": "000000000001035674","ddtext": "ITEM 1 DEV TEST","MaterialType": "RA","MaterialTypeDescription": "RATAFIA"}
+,{ "ddkey": "000000000001035694","ddtext": "ITEM 2 DEV TEST","MaterialType": "RA","MaterialTypeDescription": "RATAFIA"}
+,{ "ddkey": "000000000001035674","ddtext": "ITEM 1 DEV TEST","MaterialType": "RA","MaterialTypeDescription": "RATAFIA"}
+,{ "ddkey": "000000000001035674","ddtext": "ITEM 1 DEV TEST","MaterialType": "RA","MaterialTypeDescription": "RATAFIA"}
+,{ "ddkey": "000000000001035674","ddtext": "SKU DESCRIPTION","MaterialType": "RA","MaterialTypeDescription": "RATAFIA"}
+,{ "ddkey": "000000000001035694","ddtext": "ITEM 2 DEV TEST","MaterialType": "RA","MaterialTypeDescription": "RATAFIA"}
+,{ "ddkey": "000000000001035694","ddtext": "ITEM 2 DEV TEST","MaterialType": "RA","MaterialTypeDescription": "RATAFIA"}
+,{ "ddkey": "000000000101017121","ddtext": "STICKER 2","MaterialType": "RA","MaterialTypeDescription": "RATAFIA"}
+,{ "ddkey": "000000000001035695","ddtext": "ITEM 3 DEV TEST","MaterialType": "RA","MaterialTypeDescription": "RATAFIA"}
+,{ "ddkey": "000000000001035674","ddtext": "ITEM 1 DEV TEST","MaterialType": "RA","MaterialTypeDescription": "RATAFIA"}
+,{ "ddkey": "000000000001035694","ddtext": "ITEM 2 DEV TEST","MaterialType": "RA","MaterialTypeDescription": "RATAFIA"}
+,{ "ddkey": "000000000001035694","ddtext": "ITEM 2 DEV TEST","MaterialType": "RA","MaterialTypeDescription": "RATAFIA"}
+,{ "ddkey": "000000000101017121","ddtext": "STICKER TEST","MaterialType": "RA","MaterialTypeDescription": "RATAFIA"}
+,{ "ddkey": "000000000001035694","ddtext": "ITEM 2 DEV TEST","MaterialType": "RA","MaterialTypeDescription": "RATAFIA"}
+,{ "ddkey": "000000000001035694","ddtext": "ITEM 2 DEV TEST","MaterialType": "RA","MaterialTypeDescription": "RATAFIA"}
+,{ "ddkey": "000000000001035694","ddtext": "ITEM 2 DEV TEST","MaterialType": "RA","MaterialTypeDescription": "RATAFIA"}
+,{ "ddkey": "000000000101017121","ddtext": "STICKER NAME","MaterialType": "RA","MaterialTypeDescription": "RATAFIA"}
+,{ "ddkey": "000000000001035694","ddtext": "ITEM 2 DEV TEST","MaterialType": "RA","MaterialTypeDescription": "RATAFIA"}
+,{ "ddkey": "000000000101017121","ddtext": "STICKER NAME","MaterialType": "RA","MaterialTypeDescription": "RATAFIA"}
+,{ "ddkey": "000000000001035695","ddtext": "ITEM 2 DEV TEST","MaterialType": "RA","MaterialTypeDescription": "RATAFIA"}
+,{ "ddkey": "000000000101017121","ddtext": "STICKER NAME","MaterialType": "LI","MaterialTypeDescription": "LIQUEURS + AMER"}
+,{ "ddkey": "000000000001035674","ddtext": "ITEM 1 DEV TEST","MaterialType": "LI","MaterialTypeDescription": "LIQUEURS + AMER"}
+,{ "ddkey": "000000000001035694","ddtext": "ITEM 2 DEV TEST","MaterialType": "LI","MaterialTypeDescription": "LIQUEURS + AMER"}
+,{ "ddkey": "000000000101017121","ddtext": "STICKER NAME","MaterialType": "LI","MaterialTypeDescription": "LIQUEURS + AMER"}
+,{ "ddkey": "000000000001035674","ddtext": "ITEM 1 DEV TEST","MaterialType": "LI","MaterialTypeDescription": "LIQUEURS + AMER"}
+,{ "ddkey": "000000000001035694","ddtext": "ITEM 2 DEV TEST","MaterialType": "LI","MaterialTypeDescription": "LIQUEURS + AMER"}
+,{ "ddkey": "000000000101017121","ddtext": "STICKER NAME","MaterialType": "LI","MaterialTypeDescription": "LIQUEURS + AMER"}
+,{ "ddkey": "000000000101016360","ddtext": "Barrels Sales (FR)","MaterialType": "MC","MaterialTypeDescription": "MARC"}
+,{ "ddkey": "000000000101017121","ddtext": "WRAPPING MND 1","MaterialType": "MC","MaterialTypeDescription": "MARC"}
+,{ "ddkey": "000000000101017121","ddtext": "WRAPPING MND 1","MaterialType": "MC","MaterialTypeDescription": "MARC"}
+,{ "ddkey": "000000000001035674","ddtext": "RU DR 1998 150cl C1 G/BOX 464","MaterialType": "LI","MaterialTypeDescription": "LIQUEURS + AMER"}
+,{ "ddkey": "000000000101017121","ddtext": "WRAPPING MND 1","MaterialType": "MC","MaterialTypeDescription": "MARC"}
+,{ "ddkey": "000000000101017121","ddtext": "WRAPPING MND 1","MaterialType": "MC","MaterialTypeDescription": "MARC"}
+,{ "ddkey": "000000000001035674","ddtext": "RU DR 1998 150cl C1 G/BOX 464","MaterialType": "LI","MaterialTypeDescription": "LIQUEURS + AMER"}
+,{ "ddkey": "000000000101016360","ddtext": "Barrels Sales (FR)","MaterialType": "MC","MaterialTypeDescription": "MARC"}
+,{ "ddkey": "000000000101017121","ddtext": "STICKER NAME","MaterialType": "LI","MaterialTypeDescription": "LIQUEURS + AMER"}
+,{ "ddkey": "000000000001035674","ddtext": "ITEM 1 DEV TEST","MaterialType": "LI","MaterialTypeDescription": "LIQUEURS + AMER"}
+,{ "ddkey": "000000000001035694","ddtext": "ITEM 2 DEV TEST","MaterialType": "LI","MaterialTypeDescription": "LIQUEURS + AMER"}
+,{ "ddkey": "000000000101017121","ddtext": "STICKER NAME","MaterialType": "RA","MaterialTypeDescription": "RATAFIA"}
+,{ "ddkey": "000000000001035674","ddtext": "RU DR 1998 150cl C1 G/BOX 464","MaterialType": "RA","MaterialTypeDescription": "RATAFIA"}
+,{ "ddkey": "000000000002600097","ddtext": "SEAU MOET ETAIN 99 C 1","MaterialType": "MC","MaterialTypeDescription": "MARC"}
+,{ "ddkey": "000000000101017121","ddtext": "Barrels Sales (FR)","MaterialType": "MC","MaterialTypeDescription": "MARC"}
+,{ "ddkey": "000000000001035674","ddtext": "RU DR 1998 150cl C1 G/BOX 464","MaterialType": "RA","MaterialTypeDescription": "RATAFIA"}
+,{ "ddkey": "000000000002600097","ddtext": "SEAU MOET ETAIN 99 C 1","MaterialType": "MC","MaterialTypeDescription": "MARC"}
+,{ "ddkey": "000000000101017121","ddtext": "Barrels Sales (FR)","MaterialType": "MC","MaterialTypeDescription": "MARC"}
+,{ "ddkey": "000000000001035674","ddtext": "RU DR 1998 150cl C1 G/BOX 464","MaterialType": "RA","MaterialTypeDescription": "RATAFIA"}
+,{ "ddkey": "000000000002600097","ddtext": "SEAU MOET ETAIN 99 C 1","MaterialType": "MC","MaterialTypeDescription": "MARC"}
+,{ "ddkey": "000000000101017121","ddtext": "Barrels Sales (FR)","MaterialType": "MC","MaterialTypeDescription": "MARC"}
+,{ "ddkey": "000000000001035674","ddtext": "RU DR 1998 150cl C1 G/BOX 464","MaterialType": "RA","MaterialTypeDescription": "RATAFIA"}
+,{ "ddkey": "000000000002600097","ddtext": "SEAU MOET ETAIN 99 C 1","MaterialType": "MC","MaterialTypeDescription": "MARC"}
+,{ "ddkey": "000000000101017121","ddtext": "Barrels Sales (FR)","MaterialType": "MC","MaterialTypeDescription": "MARC"}
+,{ "ddkey": "000000000001035674","ddtext": "RU DR 1998 150cl C1 G/BOX 464","MaterialType": "RA","MaterialTypeDescription": "RATAFIA"}
+,{ "ddkey": "000000000002600097","ddtext": "SEAU MOET ETAIN 99 C 1","MaterialType": "MC","MaterialTypeDescription": "MARC"}
+,{ "ddkey": "000000000101017121","ddtext": "Barrels Sales (FR)","MaterialType": "MC","MaterialTypeDescription": "MARC"}
+,{ "ddkey": "000000000001035674","ddtext": "RU DR 1998 150cl C1 G/BOX 464","MaterialType": "RA","MaterialTypeDescription": "RATAFIA"}
+,{ "ddkey": "000000000002600097","ddtext": "SEAU MOET ETAIN 99 C 1","MaterialType": "MC","MaterialTypeDescription": "MARC"}
+,{ "ddkey": "000000000101017121","ddtext": "Barrels Sales (FR)","MaterialType": "MC","MaterialTypeDescription": "MARC"}
+,{ "ddkey": "000000000002600097","ddtext": "POSM 1","MaterialType": "MC","MaterialTypeDescription": "MARC"}
+,{ "ddkey": "000000000101016360","ddtext": "EXPERIENCE 1","MaterialType": "MC","MaterialTypeDescription": "MARC"}
+,{ "ddkey": "000000000001035674","ddtext": "CHAMPAIGN BOTTLE","MaterialType": "RA","MaterialTypeDescription": "RATAFIA"}
+,{ "ddkey": "000000000101017135","ddtext": "WRAPPING","MaterialType": "RA","MaterialTypeDescription": "RATAFIA"}
+,{ "ddkey": "000000000101017121","ddtext": "STICKER GOLD","MaterialType": "RA","MaterialTypeDescription": "RATAFIA"}
+]
+}
